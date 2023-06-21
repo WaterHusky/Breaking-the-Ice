@@ -1,0 +1,42 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+The label Breakfast is defined twice, at File "game/script.rpy", line 245:
+            label Breakfast:
+and File "game/script.rpy", line 318:
+            label Breakfast:
+
+
+The label Egg is defined twice, at File "game/script.rpy", line 247:
+            label Egg:
+and File "game/script.rpy", line 320:
+            label Egg:
+
+
+The label Pancakes is defined twice, at File "game/script.rpy", line 249:
+            label Pancakes:
+and File "game/script.rpy", line 322:
+            label Pancakes:
+
+
+The label Toast is defined twice, at File "game/script.rpy", line 251:
+            label Toast:
+and File "game/script.rpy", line 324:
+            label Toast:
+
+
+The label Waffles is defined twice, at File "game/script.rpy", line 253:
+            label Waffles:
+and File "game/script.rpy", line 326:
+            label Waffles:
+
+
+The label Lumberjack is defined twice, at File "game/script.rpy", line 255:
+            label Lumberjack:
+and File "game/script.rpy", line 328:
+            label Lumberjack:
+
+
+Ren'Py Version: Ren'Py 8.0.3.22090809
+Fri Jun 16 23:32:49 2023

@@ -1,0 +1,28 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 370, in script
+    if NKknock == True:
+  File "game/script.rpy", line 370, in <module>
+    if NKknock == True:
+NameError: name 'NKknock' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 370, in script
+    if NKknock == True:
+  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\ast.py", line 2115, in execute
+    if renpy.python.py_eval(condition):
+  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\python.py", line 1092, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\python.py", line 1085, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 370, in <module>
+    if NKknock == True:
+NameError: name 'NKknock' is not defined
+
+Windows-10-10.0.22621 AMD64
+Ren'Py 8.0.3.22090809
+Breaking the Ice 1.0
+Fri Jun 16 23:43:29 2023
