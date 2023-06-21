@@ -1,8 +1,6 @@
-# a = Airplane Announcer
-# k = Konrad
-# j = Johnny
-# t = Tai Zhou
-# p = phone
+# a = Airplane Announcer (neutral)
+# k = Konrad (neutral, tired, annoyed, angry, crying)
+# p = phone (neutral, loud)
 
 label touchdown:
 
@@ -11,6 +9,8 @@ label touchdown:
     a "“Ladies and gentlemen, Crown Wing Airlines welcomes you to Atmos City. The time now is 8:42 PM, and the temperature is -10°C or 14°F.”"
 
     show bg airplane_window with dissolve
+
+    show konrad tired with dissolve
 
     "I wake up groggily. The window beside me has the shades up, revealing the snow-blanketed town below. Everything is dark blue, illuminated by orange street lamps."
 
@@ -30,11 +30,13 @@ label touchdown:
 
     a "“Please use caution when opening the overhead compartments and removing items, since articles may have shifted during flight.”"
 
+    hide konrad with dissolve
     show bg black with dissolve
 
     "The landing goes smoothly, and I pass through the customs with no trouble."
 
     show bg airport with dissolve
+    show konrad with dissolve
 
     "I collect my luggage and head towards the arrival hall. I don’t see Johnny, though."
 
@@ -44,11 +46,13 @@ label touchdown:
 
     "I’m hungry. I want to grab a snack from the stores in the airport, but Johnny said he’ll bring me to Solstice Garden for dinner, so I wait."
 
+    hide konrad with dissolve
     show bg black with dissolve
 
     "10 minutes pass."
 
     show bg airport with dissolve
+    show konrad with dissolve
 
     "“u there?” I text him again."
 
@@ -58,13 +62,19 @@ label touchdown:
 
     "It’s okay. I imagine digging into a warm steak with a rich gravy. Soon, we’ll be having dinner together."
 
+    hide konrad with dissolve
     show bg black with dissolve
 
     "It’s been 30 minutes."
 
     show bg airport with dissolve
+    show konrad annoyed with dissolve
 
-    "I’ve searched the airport, but I don’t see him anywhere. I pull out the phone and give him a call."
+    "I’ve searched the airport, but I don’t see him anywhere."
+
+    show konrad phone with dissolve
+
+    "I pull out the phone and give him a call."
 
     "*Brr brr*"
 
@@ -72,39 +82,39 @@ label touchdown:
 
     "I almost hang up when he finally picks up."
 
-    j "“What’s up?”"
+    p "“What’s up?”"
 
     k "“Hey, babe. Where are you?”"
 
-    j "“Huh? At home?”"
+    p "“Huh? At home.”"
 
     "My heart sinks."
 
     k "“You’re not at the airport?”"
 
-    j "“Why would I—oh shit.”"
+    p "“Why would I—oh shit.”"
 
     k "“You forgot?”"
 
-    j "“I’m sure I wrote it down on my calendar app. Stupid thing didn’t remind me.”"
+    p "“I’m sure I wrote it down on my calendar app. Stupid thing didn’t remind me.”"
 
     k "“Can… can you come pick me up? Please?”"
 
-    j "“Dude, that’s like, two hours away from here.”"
+    p "“Dude, that’s like, two hours away from here.”"
 
     k "“I can wait. I’m hungry, but I can get a snack before dinner together.”"
 
-    j "“You haven’t had dinner? Go get something to eat, then come take a cab over.”"
+    p "“You haven’t had dinner? Go get something to eat, then come take a cab over.”"
 
     k "“What about dinner together?”"
 
-    j "“I’m in the middle of a raid. Come over and we’ll talk.”"
+    p "“I’m in the middle of a raid. Come over and we’ll talk.”"
 
     "Maybe it’s the hunger. Maybe it’s the jet lag. Maybe it’s the idea that I’m the only one who cares about this relationship. Whatever it is, I’ve had enough."
 
-    k "“I flew all the way here to come see you, and you can’t quit your raid to see me?”"
+    k angry "“I flew all the way here to come see you, and you can’t quit your raid to see me?”"
 
-    j "“I can’t quit the raid! My guild will kill me!”"
+    p loud "“I can’t quit the raid! My guild will kill me!”"
 
     k "“And you prefer to leave me stranded at the airport?”"
 
@@ -120,7 +130,7 @@ label touchdown:
 
     "There’s a loud bang as I hear him throw the phone at the wall."
 
-    j "“Sorry about that.”"
+    j -happy "“Sorry about that.”"
 
     "He’s talking to his guild mates."
 
@@ -130,9 +140,13 @@ label touchdown:
 
     j "“Haha, yeah. Literally just.”"
 
+    show konrad crying
+
     "I end the call. People are staring at me, but I can’t see their faces clearly through the tears in my eyes."
 
     "I blink the tears out of my eyes. Grabbing my luggage, I run."
+
+    hide konrad with dissolve
 
     "I’m not sure where I’m going, but I eventually find a quiet corner of the airport and crumple onto the carpet in tears."
 
