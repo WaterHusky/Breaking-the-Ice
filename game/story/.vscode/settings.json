@@ -1,0 +1,40 @@
+{
+    "[renpy]": {
+        "editor.fontFamily": "Atkinson Hyperlegible",
+        "editor.letterSpacing": 1
+    },
+    "replacerules.rules": {
+        "Smart open double quote": {
+            "find": "\\[\"",
+            "replace": "“"
+        },
+        "Smart close double quote": {
+            "find": "\"\\]",
+            "replace": "”"
+        },
+        "Smart open single quote": {
+            "find": "\\['",
+            "replace": "‘"
+        },
+        "Smart close single quote": {
+            "find": "'\\]",
+            "replace": "’"
+        }
+    },
+    "replacerules.rulesets": {
+        "Smart quotes": {
+            "rules": [
+                "Smart open double quote",
+                "Smart close double quote",
+                "Smart open single quote",
+                "Smart close single quote"
+            ]
+        }
+    },
+    "files.exclude": {
+        "**/*.rpyc": true,
+        "**/*.rpa": true,
+        "**/*.rpymc": true,
+        "**/cache/": true
+    }
+}
