@@ -1,6 +1,12 @@
+# # Background
+# black
+# airplace_window
+# airport
+
+# # Characters
 # a = Airplane Announcer (neutral)
 # k = Konrad (neutral, tired, annoyed, angry, crying)
-# p = phone (neutral, loud)
+# p = Phone (neutral, loud)
 
 label touchdown:
 
