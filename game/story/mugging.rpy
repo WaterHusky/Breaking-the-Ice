@@ -196,5 +196,7 @@ label mugging:
 
     t "Let’s go."
 
+    jump cabin
+
 
 

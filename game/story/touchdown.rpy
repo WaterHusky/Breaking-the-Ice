@@ -157,3 +157,5 @@ label touchdown:
     "I’m not sure where I’m going, but I eventually find a quiet corner of the airport and crumple onto the carpet in tears."
 
     show bg black with dissolve
+
+    jump mugging
