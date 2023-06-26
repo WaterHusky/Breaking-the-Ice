@@ -2,7 +2,21 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 22: Indentation mismatch.
+File "game/images.rpy", line 4: Line is indented, but the preceding ATL statement does not expect a block. Please check this line's indentation.
+    image side konrad happy = "side_konrad_happy.png"
+    ^
+
+File "game/images.rpy", line 11: Line is indented, but the preceding ATL statement does not expect a block. Please check this line's indentation.
+    image side tai zhou fierce = "side_tai_zhou_fierce.png"
+    ^
+
+File "game/images.rpy", line 17: Line is indented, but the preceding ATL statement does not expect a block. Please check this line's indentation.
+    image side phone loud = "side_phone_loud.png"
+    ^
+
+File "game/images.rpy", line 24: Line is indented, but the preceding ATL statement does not expect a block. Please check this line's indentation.
+    image side mugger fierce = "side_mugger_fierce.png"
+    ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Mon Jun 26 10:07:06 2023
+Mon Jun 26 10:57:47 2023

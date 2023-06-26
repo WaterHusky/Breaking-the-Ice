@@ -1,28 +1,38 @@
 # Characters
 image konrad:
     "neutral_konrad.png"
-image side konrad happy = "side_konrad_happy.png"
-image side konrad tired = "side_konrad_tired.png"
-image side konrad angry = "side_konrad_angry.png"
-image side konrad crying = "side_konrad_crying.png"
+image konrad happy:
+    "side_konrad_happy.png"
+image konrad tired:
+    "side_konrad_tired.png"
+image konrad angry:
+    "side_konrad_angry.png"
+image konrad crying:
+    "side_konrad_crying.png"
 
 image tai zhou:
     "neutral_tai_zhou.png"
-image side tai zhou fierce = "side_tai_zhou_fierce.png"
-image side tai zhou concerned = "side_tai_zhou_concerned.png"
-image side tai zhou smiling = "side_tai_zhou_smiling.png"
+image tai zhou fierce:
+    "side_tai_zhou_fierce.png"
+image tai zhou concerned:
+    "side_tai_zhou_concerned.png"
+image tai zhou smiling:
+    "side_tai_zhou_smiling.png"
 
 image phone:
     "neutral_phone.png"
-image side phone loud = "side_phone_loud.png"
+image phone loud:
+    "side_phone_loud.png"
 
 image airplane announcer:
     "neutral_airplane_announcer.png"
 
 image mugger:
     "neutral_mugger.png"
-image side mugger fierce = "side_mugger_fierce.png"
-image side mugger shocked = "side_mugger_shocked.png"
+image mugger fierce:
+    "side_mugger_fierce.png"
+image mugger shocked:
+    "side_mugger_shocked.png"
 
 # Backgrounds
 
