@@ -44,9 +44,7 @@ label mugging:
 
     "I finally get the phone out of my pocket. He grabs it and shoves it into his jacket pocket."
 
-    show konrad crying
-
-    "I’m a sobbing mess."
+    k crying "I’m a sobbing mess."
 
     "He grabs my slingbag strap and pulls."
 
@@ -158,9 +156,7 @@ label mugging:
 
     "And I’m still tired, still hungry."
 
-    "I’m... I’m not okay."
-
-    show konrad crying
+    k crying "I’m... I’m not okay."
 
     "I shake my head."
 

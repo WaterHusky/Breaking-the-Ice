@@ -57,7 +57,7 @@ label cabin:
 
     "I nod."
 
-    k tired "{size=*0.7}Thank you...{/size}"
+    k tired "{size=10}Thank you...{/size}"
 
     t concerned "Hmm?"
 

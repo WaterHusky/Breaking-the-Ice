@@ -14,21 +14,43 @@ image define side mugger shocked = "side mugger shocked.png"
 
 image konrad:
     "neutral_konrad.png"
+image konrad happy:
+    "side konrad happy.png"
+image konrad tired:
+    "side konrad tired.png"
+image konrad angry:
+    "side konrad angry.png"
+image konrad crying:
+    "side konrad crying.png"
 
 image tai zhou:
     "neutral_tai_zhou.png"
+image tai zhou fierce:
+    "side tai zhou fierce.png"
+image tai zhou concerned:
+    "side tai zhou concerned.png"
+image tai zhou smiling:
+    "side tai zhou smiling.png"
 
 image phone:
     "neutral_phone.png"
+image phone loud:
+    "side phone loud.png"
 
 image johnny:
     "neutral_johnny.png"
+image johnny happy:
+    "side johnny happy.png"
 
 image airplane announcer:
     "neutral_airplane_announcer.png"
 
 image mugger:
     "neutral_mugger.png"
+image mugger fierce:
+    "side mugger fierce.png"
+image mugger shocked:
+    "side mugger shocked.png"
 
 # Backgrounds
 
