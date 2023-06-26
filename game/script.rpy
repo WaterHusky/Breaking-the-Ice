@@ -8,6 +8,8 @@ define a = Character ("Airplane Announcer", color = "#ffffff" , image = "airplan
 define p = Character ("Phone", color = "#5e0101" , image = "phone")
 define k = Character("Konrad", color = "#08f1f9" , image = "konrad")
 define t = Character("Tai Zhou", color = "#93E9BE" , image = "tai zhou")
+define j = Character("Johnny", color = "#8303fb", image = "johnny")
+
 
 
 init:

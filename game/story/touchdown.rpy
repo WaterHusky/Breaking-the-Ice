@@ -16,9 +16,7 @@ label touchdown:
 
     show bg airplane_window with dissolve
 
-    show konrad tired with dissolve
-
-    "I wake up groggily. The window beside me has the shades up, revealing the snow-blanketed town below. Everything is dark blue, illuminated by orange street lamps."
+    k tired "I wake up groggily. The window beside me has the shades up, revealing the snow-blanketed town below. Everything is dark blue, illuminated by orange street lamps."
 
     "I rub my temples, nursing my headache."
 
@@ -74,11 +72,10 @@ label touchdown:
     "It’s been 30 minutes."
 
     show bg airport with dissolve
-    show konrad annoyed with dissolve
 
-    "I’ve searched the airport, but I don’t see him anywhere."
+    k annoyed "I’ve searched the airport, but I don’t see him anywhere."
 
-    show konrad phone with dissolve
+    show phone with dissolve
 
     "I pull out the phone and give him a call."
 
@@ -136,7 +133,7 @@ label touchdown:
 
     "There’s a loud bang as I hear him throw the phone at the wall."
 
-    j -happy "“Sorry about that.”"
+    j happy "“Sorry about that.”"
 
     "He’s talking to his guild mates."
 
@@ -146,9 +143,7 @@ label touchdown:
 
     j "“Haha, yeah. Literally just.”"
 
-    show konrad crying
-
-    "I end the call. People are staring at me, but I can’t see their faces clearly through the tears in my eyes."
+    k crying "I end the call. People are staring at me, but I can’t see their faces clearly through the tears in my eyes."
 
     "I blink the tears out of my eyes. Grabbing my luggage, I run."
 
