@@ -1,28 +1,30 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 370, in script
-    if NKknock == True:
-  File "game/script.rpy", line 370, in <module>
-    if NKknock == True:
-NameError: name 'NKknock' is not defined
+  File "game/story/touchdown.rpy", line 19, in script
+    show konrad tired with dissolve
+Exception: Image 'konrad' does not accept attributes 'tired'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 370, in script
-    if NKknock == True:
-  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\ast.py", line 2115, in execute
-    if renpy.python.py_eval(condition):
-  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\python.py", line 1092, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\python.py", line 1085, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/script.rpy", line 370, in <module>
-    if NKknock == True:
-NameError: name 'NKknock' is not defined
+  File "game/story/touchdown.rpy", line 19, in script
+    show konrad tired with dissolve
+  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\ast.py", line 1408, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\ast.py", line 1371, in show_imspec
+    renpy.config.show(name,
+  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\exports.py", line 686, in show
+    if not base.find_target() and renpy.config.missing_show:
+  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\display\image.py", line 414, in find_target
+    self.target = target._duplicate(a)
+  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\display\transform.py", line 881, in _duplicate
+    args.extraneous()
+  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\display\core.py", line 265, in extraneous
+    raise Exception("Image '{}' does not accept attributes '{}'.".format(
+Exception: Image 'konrad' does not accept attributes 'tired'.
 
 Windows-10-10.0.22621 AMD64
 Ren'Py 8.0.3.22090809
 Breaking the Ice 1.0
-Fri Jun 16 23:43:29 2023
+Mon Jun 26 10:47:46 2023

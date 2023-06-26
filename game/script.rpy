@@ -18,5 +18,5 @@ init:
 # The game starts here.
 
 label start:
-        jump touchdown
+    jump touchdown
     return
