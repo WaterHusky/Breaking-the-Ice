@@ -25,6 +25,8 @@ label cabin:
 
     "The leopard closes the door behind me. He sets down my belongings before taking off his winter coat and boots."
 
+    show taizhou with dissolve
+
     t "Ah, much better."
 
     "I stand in the doorway. The leopard looks at me with a concerned look."
@@ -37,9 +39,9 @@ label cabin:
 
     "He heads into another room. I hear the sound of wooden cupboards opening and closing."
 
-    show taizhou with dissolve
-
     "He passes me a towel. It’s warm and fluffy."
+
+    show taizhou with dissolve
 
     t "I got you a towel to dry yourself off. Then you can change into these."
 
@@ -65,9 +67,7 @@ label cabin:
 
     t smiling "Ah, no problem."
 
-    show taizhou neutral
-
-    "He pauses."
+    t "He pauses."
 
     t "Oh, before you head to bed, mind sharing your name?"
 
@@ -79,6 +79,8 @@ label cabin:
 
     "I nod in acknowledgement."
 
+    hide taizhou with dissolve
+
     scene bg black
 
     "The rest of the night was a blur. My body ran on auto-pilot as I cleaned up and got changed."
@@ -86,6 +88,8 @@ label cabin:
     "I got in bed, snuggling up in the silky sheets and blanket. It’s warm and comforting."
 
     "Before I know it, I’m fast asleep."
+
+    jump cabinMorning
 
 
 

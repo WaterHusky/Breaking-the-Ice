@@ -10,9 +10,7 @@ label mugging:
 
     scene bg street
 
-    show konrad tired with dissolve
-
-    "It’s 3 AM when I finally leave the airport, dragging my luggage back behind me."
+    k tired "It’s 3 AM when I finally leave the airport, dragging my luggage back behind me."
 
     "My stomach feels empty, but I have no appetite to eat."
 
@@ -31,6 +29,8 @@ label mugging:
     "Someone grabs my arm from behind and yanks me to face him."
 
     m fierce "Hand me your stuff and nobody gets hurt."
+
+    show mugger with dissolve
 
     "I’m getting mugged."
 
@@ -75,6 +75,8 @@ label mugging:
     "I’ll have nothing."
 
     t fierce "Can I help you?"
+
+    hide mugger with dissolve
 
     m shocked "What the—"
 

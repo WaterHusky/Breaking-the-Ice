@@ -7,7 +7,7 @@
 # k = Konrad (tired)
 # t = Tai Zhou (neutral, concerned, smiling)
 
-label cabin:
+label cabinNight:
 
   scene bg black
 
@@ -35,7 +35,7 @@ label cabin:
 
   menu:
     "Doesn't it get lonely?":
-      #! +Emotional
+      $ Emotional += 1
       k neutral "Doesn't it get lonely up here?"
       t neutral "Well, sometimes. But I make do. The people in the city don't really trust me, especially since I moved in from Asia. You were very lucky that I was in town last night."
       k neutral "Aww... I'm sorry to hear that."
@@ -50,7 +50,7 @@ label cabin:
       t smiling "I'm glad too, Konrad."
 
     "A life of solitude, I get it.":
-      #! +Intellectual
+      $ Intellectual += 1
       k neutral "I can respect that. Sometimes a simple life is all you need, right?"
       t smiling "Yes. "
       k neutral "I understand. Life has its ups and downs. Sometimes we need to take a step back and focus on ourselves."

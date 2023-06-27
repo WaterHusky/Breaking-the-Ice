@@ -2,53 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/images.rpy", line 5: expected 'comma or end of line' not found.
-    image define side konrad happy = "side konrad_happy.png"
-    ^
-
-File "game/images.rpy", line 7: expected 'comma or end of line' not found.
-    image define side konrad tired ="side konrad_tired.png"
-    ^
-
-File "game/images.rpy", line 9: expected 'comma or end of line' not found.
-    image define side konrad annoyed ="side konrad_annoyed.png"
-    ^
-
-File "game/images.rpy", line 11: expected 'comma or end of line' not found.
-    image define side konrad angry ="side konrad_angry.png"
-    ^
-
-File "game/images.rpy", line 13: expected 'comma or end of line' not found.
-    image define side konrad crying ="side konrad_crying.png"
-    ^
-
-File "game/images.rpy", line 18: expected 'comma or end of line' not found.
-    image define side tai zhou fierce ="side tai_zhou_fierce.png"
-    ^
-
-File "game/images.rpy", line 20: expected 'comma or end of line' not found.
-    image define side tai zhou concerned ="side tai_zhou_concerned.png"
-    ^
-
-File "game/images.rpy", line 22: expected 'comma or end of line' not found.
-    image define side tai zhou smiling ="side tai_zhou_smiling.png"
-    ^
-
-File "game/images.rpy", line 27: expected 'comma or end of line' not found.
-    image define side phone loud ="side phone_loud.png"
-    ^
-
-File "game/images.rpy", line 32: expected 'comma or end of line' not found.
-    image define side johnny happy ="side johnny_happy.png"
-    ^
-
-File "game/images.rpy", line 40: expected 'comma or end of line' not found.
-    image define side mugger fierce = "side mugger_fierce.png"
-    ^
-
-File "game/images.rpy", line 42: expected 'comma or end of line' not found.
-    image define side mugger shocked = "side mugger_shocked.png"
-    ^
+File "game/story/mugging.rpy", line 79: expected 'simple_expression' not found.
+    show mugger with at center with dissolve
+                     ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Mon Jun 26 12:05:31 2023
+Tue Jun 27 11:29:01 2023

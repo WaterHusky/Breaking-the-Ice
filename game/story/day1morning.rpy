@@ -7,13 +7,13 @@
 # k = Konrad (tired)
 # t = Tai Zhou (neutral, concerned, smiling)
 
-label cabin:
+label cabinMorning:
 
   scene bg black
 
   show bg cabin_inside_day
   
-  "I slowly opened my eyes, the remnants of sleep clinging to my senses. The warmth of the cabin enveloped me, providing a stark contrast to the frigid air outside.""
+  "I slowly opened my eyes, the remnants of sleep clinging to my senses. The warmth of the cabin enveloped me, providing a stark contrast to the frigid air outside."
 
   "Rubbing my eyes, I glanced around and noticed that the room was empty. Tai Zhou, the cabin's owner, was nowhere to be seen."
 
@@ -54,7 +54,7 @@ label cabin:
       t neutral "No, but good guess. It's called Pí dàn. I'm not sure what it's called in english but it's quite common to eat with pork porridge."
 
     "Is this century egg?": 
-      #! +Intellectual
+      $ Intellectual += 1
       t smiling "Yes! You've heard of it?” He seems impressed."
       k neutral "Well, I've seen it in pictures... But I've never tried it."
 
@@ -62,23 +62,21 @@ label cabin:
 
   menu:
     "I'll try anything once!":
-      #! +Physical
+      $ Physical += 1
       "I cautiously place the spoon into my mouth. As I bite down into the strange gelatin, immediately a strange sensation spreads across my tongue and I can't help but make a face."
 
       menu:
         "Urk, I can do this...":
-          #! +Emotional
+          $ Emotional += 1
           "I bite down with my jaw and choke it down. It leaves a strange aftertaste, which I quickly wash away with a drink of coffee."
           "That tastes... interesting...."
-          show t smiling
-          "Tai Zhou laughs, clearly noticing my discomfort."
+          t smiling "Tai Zhou laughs, clearly noticing my discomfort."
 
         "Spit it out!":
           "My hands flail around the table, before snatching a sheet of tissue from the nearby tissue box. I spat the revolting jelly out onto it, before wrapping it up in ball."
-          show t concerned
-          "Tai Zhou gives me a slightly crestfallen look."
+          t concerned "Tai Zhou gives me a slightly crestfallen look."
 
-      "You need to stir it in. It doesn't taste good on its own." Nevertheless, he offers me his glass of water.
+      "You need to stir it in. It doesn't taste good on its own. Nevertheless, he offers me his glass of water."
 
     "I'm good, thanks...":
       t concerned "It's okay, you can just pass yours to me."
@@ -90,3 +88,5 @@ label cabin:
   "Thanks, Tai Zhou. That was delicious."
 
   "He smiles, and leaves to clear the dishes."
+
+  jump cabinAfternoon

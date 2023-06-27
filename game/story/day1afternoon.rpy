@@ -7,7 +7,7 @@
 # k = Konrad (tired)
 # t = Tai Zhou (neutral, concerned, smiling)
 
-label cabin:
+label cabinAfternoon:
 
   scene bg black
 
@@ -29,7 +29,7 @@ label cabin:
 
   k neutral "Well, I hope you don't mind if I watch." 
   
-  I took a seat on the nearby sofa. He ignores me and carries on with his routine."
+  "I took a seat on the nearby sofa. He ignores me and carries on with his routine."
 
   "Tai Zhou carries on his routine for a bit, before turning to me."
   
@@ -53,7 +53,7 @@ label cabin:
 
   menu:
     "Could you show me how it's done?":
-      #! +Physical
+      $ Physical += 1
       t smiling "Here, let me help."
       
       "Tai Zhou steps over behind me and grips both of my wrists with his hands. While his strong grip was firm like a pair of cuffs, his fur was soft and I couldn't help but blush as I felt it brush against the length of my arms."
@@ -68,7 +68,7 @@ label cabin:
 
       menu:
         "I can't help it...":
-          #! +Emotional
+          $ Emotional += 1
 
           k smiling "Sorry, it's just that... I'm not used to being this close to someone."
           
@@ -111,27 +111,25 @@ label cabin:
 
   menu:
     "Because it helps you be mindful?":
-      #! +Intellectual
+      $ Intellectual += 1
 
       k neutral "Well from what I know, Tai chi is a style of martial arts meant to promote relaxation and mindfulness. Meditation in motion, as they say. Kind of like yoga."
 
       t smiling "Wow. You seem quite knowledgable."
 
     "Because it's healthy?":
-      #! +Emotional
+      $ Emotional += 1
 
       k smiling "Exercise? I'm sure it helps you lose weight and keep fit. Not to mention the health benefits."
 
       t smiling "Maybe. I get more than enough exercise outside though. Plenty to do around up here in the mountains."
 
     "To develop your physique?":
-      #! +Physical
+      $ Physical += 1
 
       k smiling "Building a nice body? You look like you work out a lot. Your muscles are huge."
 
-      show t smiling
-
-      "Tai Zhou blushes."
+      t smiling "Tai Zhou blushes."
 
   t neutral "To be honest, it's just a habit. My parents made me do it when I was young and in my home country, along with other martial arts like Wu Shu and Karate. I've never really questioned it."
 
@@ -142,3 +140,5 @@ label cabin:
   k smiling "Sure, I don't mind."
 
   "I smile as I lay back on the sofa, watching the snow leopard finish up his routine."
+
+  jump cabinNight

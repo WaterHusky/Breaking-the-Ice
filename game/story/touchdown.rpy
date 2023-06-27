@@ -117,7 +117,7 @@ label touchdown:
 
     k angry "“I flew all the way here to come see you, and you can’t quit your raid to see me?”"
 
-    p loud "“I can’t quit the raid! My guild will kill me!”"
+    p  " {b}“I can’t quit the raid! My guild will kill me!” {/b}"
 
     k "“And you prefer to leave me stranded at the airport?”"
 
