@@ -23,11 +23,13 @@ label cabin:
 
   "I watched as he pointed his muzzle straight ahead and his arms moved in a slow, but controlled manner. I cough softly so as not to startle him."
 
-  "“What are you doing?”"
+  k neutral "What are you doing?"
 
-  t neutral "Tai chi. It helps me relax."
+  t neutral "Tai chi."
 
-  "“Well that seems like something I need right about now.” I said, taking a seat on the nearby sofa. He ignores me and carries on with his routine."
+  k neutral "Well, I hope you don't mind if I watch." 
+  
+  I took a seat on the nearby sofa. He ignores me and carries on with his routine."
 
   "Tai Zhou carries on his routine for a bit, before turning to me."
   
@@ -35,7 +37,9 @@ label cabin:
 
   "I hesitated, not sure if I could do it, but his warm smile encouraged me to give it a shot."
 
-  "“Sure, why not?” I replied, trying to sound confident. It looked pretty simple."
+  k smiling "Sure, why not?"
+  
+  "I stepped up confidently. It looked pretty simple."
 
   "He made room for me on the mat, and I stood next to him. The mat felt soft under my feet as I copied his starting position, standing with my feet apart and looking straight ahead."
 
@@ -43,7 +47,7 @@ label cabin:
 
   "He brought his hands together, before gradually lifting them upwards. I followed by swinging my arms sloppily, almost losing my balance. Turns out, it's not as easy as it looks."
 
-  t neutral "Slowly. You want to relax, not complete the exercise."
+  t neutral "Slowly. You want to do it properly, not complete the exercise."
 
   "I try again. My movements flow like a dead cow tumbling down a river."
 
@@ -66,15 +70,17 @@ label cabin:
         "I can't help it...":
           #! +Emotional
 
-          "“Sorry, it's just that... I'm not used to being this close to someone.” I hadn't seen Johnny in three months, and even before that we hardly ever met in person."
+          k smiling "Sorry, it's just that... I'm not used to being this close to someone."
+          
+          "I hadn't seen Johnny in three months, and even before that we hardly ever met in person."
 
           t neutral "Well, would you like me to stop?"
 
-          "“It's okay, let's continue.”"
+          k neutral "It's okay, let's continue."
 
           t neutral "Now, like this."
 
-          I stood helplessly as he effortlessly moved my arms.
+          "I stood helplessly as he effortlessly moved my arms."
 
           t neutral "Now, you try."
 
@@ -85,20 +91,54 @@ label cabin:
           "Tai Zhou went through a few basic moves, guiding my arms and legs."
           
         "It's nothing.":
-          "“It's nothing.” I mutter."
+          k neutral "It's nothing.” I mutter."
 
           t neutral "Okay, let's continue."
 
-          "Tai Zhou went through a few basic moves, guiding my arms and legs. Eventually I got tired though, and went back to my seat. Tai Zhou nods in understanding, and carries on with his routine."
+          "Tai Zhou went through a few basic moves, guiding my arms and legs. It wasn't long before I got tired though."
 
         "Let's just stop here.":
           "I say a few words about feeling unwell, but my speech came out as a low mumble."
 
-          "I move back towards my seat. Tai Zhou nods in understanding, and carries on with his routine."
-
     "This is embarrassing...":
-      "“Maybe I'll just sit out for now...”"
+      k sad "Maybe I'll just sit out for now..."
 
-      "I move back towards my seat. Tai Zhou nods in understanding, and carries on with his routine."
+  "I move back towards my seat. Tai Zhou nods in understanding, and carries on with his routine. It's interesting to watch, if not repetitive."
 
+  k neutral "Do you do this every day?"
 
+  t neutral "Well, I try to. Do you want to guess why?"
+
+  menu:
+    "Because it helps you be mindful?":
+      #! +Intellectual
+
+      k neutral "Well from what I know, Tai chi is a style of martial arts meant to promote relaxation and mindfulness. Meditation in motion, as they say. Kind of like yoga."
+
+      t smiling "Wow. You seem quite knowledgable."
+
+    "Because it's healthy?":
+      #! +Emotional
+
+      k smiling "Exercise? I'm sure it helps you lose weight and keep fit. Not to mention the health benefits."
+
+      t smiling "Maybe. I get more than enough exercise outside though. Plenty to do around up here in the mountains."
+
+    "To develop your physique?":
+      #! +Physical
+
+      k smiling "Building a nice body? You look like you work out a lot. Your muscles are huge."
+
+      show t smiling
+
+      "Tai Zhou blushes."
+
+  t neutral "To be honest, it's just a habit. My parents made me do it when I was young and in my home country, along with other martial arts like Wu Shu and Karate. I've never really questioned it."
+
+  k concerned "That's good though. I hate exercising, and now look at me.” I brushed a hand down my own abdomen, feeling a distinctly round bump."
+
+  t smiling "You look fine. Maybe when the weather clears up we can go for a walk. The mountains are a great place to explore."
+
+  k smiling "Sure, I don't mind."
+
+  "I smile as I lay back on the sofa, watching the snow leopard finish up his routine."

@@ -27,7 +27,7 @@ label cabin:
 
   "I nodded, a mix of gratitude and concern filling my heart."
 
-  "“Thank you for keeping me safe, Tai Zhou. I didn't expect the storm to become this intense.”"
+  k smiling "Thank you for keeping me safe, Tai Zhou. I didn't expect the storm to become this intense."
 
   "He smiled warmly, his eyes sparkling with a hint of mischief."
 
@@ -35,7 +35,7 @@ label cabin:
 
   "A low growl suddenly emanates from my stomach and I blush."
 
-  t neutral "“Hungry?” He asks with a chuckle. “Don't worry. You clean up and get ready. I'll make breakfast.”"
+  t neutral "Hungry? Don't worry. You clean up and get ready. I'll make breakfast."
 
   show bg cabin_inside_day with dissolve
 
@@ -45,18 +45,18 @@ label cabin:
 
   menu: 
     "What is this?":
-      t neutral "“Pí dàn. I'm not sure what it's called in english but it's quite common to eat with pork porridge.”"
+      t neutral "Pí dàn. I'm not sure what it's called in english but it's quite common to eat with pork porridge."
 
     "Is this boba?":
-      t neutral "“No.” He chuckled. “It's called Pí dàn. I'm not sure what it's called in english but it's quite common to eat with pork porridge.”"
+      t neutral "No. It's called Pí dàn. I'm not sure what it's called in english but it's quite common to eat with pork porridge."
 
     "Is this grass jelly?":
-      t neutral "“No, but good guess. It's called Pí dàn. I'm not sure what it's called in english but it's quite common to eat with pork porridge.”"
+      t neutral "No, but good guess. It's called Pí dàn. I'm not sure what it's called in english but it's quite common to eat with pork porridge."
 
     "Is this century egg?": 
       #! +Intellectual
-      t smiling "“Yes! You've heard of it?” He seems impressed."
-      "“Well, I've seen it in pictures... But I've never tried it.”"
+      t smiling "Yes! You've heard of it?” He seems impressed."
+      k neutral "Well, I've seen it in pictures... But I've never tried it."
 
   "Suspiciously, I brought it up towards my nose. A sharp odour stung my nostrils, smelling of fermented vinegar."
 
@@ -81,54 +81,12 @@ label cabin:
       "You need to stir it in. It doesn't taste good on its own." Nevertheless, he offers me his glass of water.
 
     "I'm good, thanks...":
-      t concerned "“It's okay, you can just pass yours to me.” The snow leopard frowns, but deftly picks up the slivers of black jelly with his chopsticks and places them in his own bowl. It's a wonder how he can use them so well with his paws."
+      t concerned "It's okay, you can just pass yours to me."
+      
+      "The snow leopard frowns, but deftly picks up the slivers of black jelly with his chopsticks and places them in his own bowl. It's a wonder how he can use them so well with his paws."
 
   "The two of us finish the rest of our breakfast. The hot porridge warms up my insides, and I feel the cold dissipating from my body."
 
   "Thanks, Tai Zhou. That was delicious."
 
   "He smiles, and leaves to clear the dishes."
-
-===
-
-The storm continued to rage outside, and I continued to lay in the bed that Tai Zhou had graciously provided. He mentioned he was busy with work, leaving me alone in the room.
-
-The cabin lacked a TV, computer, or any form of recreational electronics for that matter so there wasn't much to do inside besides read a book or use my phone. And before I knew it, it was already mid afternoon.
-
-Feeling rather lazy, I decided to go stretch my legs.
-
-I walk back into the living room, seeing Tai Zhou standing with his feet apart on a thin, spongy mat. He wore a thin shirt that fit his muscular frame tightly, exposing his thick biceps.
-
-I watched as he pointed his muzzle straight ahead and his arms moved in a slow, but controlled manner. I cough softly so as not to startle him.
-
-"What are you doing?"
-
-"Tai chi. It helps me relax."
-
-"Well that seems like something I need right about now." I said, taking a seat on the nearby sofa. He ignores me and carries on with his routine.
-
-After a moment, Tai Zhou turned to me and asked, "Would you like to try it?"
-
-I hesitated, not sure if I could do it, but his warm smile encouraged me to give it a shot.
-
-"Sure, why not?" I replied, trying to sound confident. It looked pretty simple.
-
-He made room for me on the mat, and I stood next to him. The mat felt soft under my feet as I copied his starting position, standing with my feet apart and looking straight ahead.
-
-"Take a deep breath and follow me."
-
-He brought his hands together, before gradually lifting them upwards. I followed by swinging my arms sloppily, almost losing my balance. Turns out, it's not as easy as it looks.
-
-"Here, let me help." Tai Zhou offers. He steps over behind me and grips both of my wrists with his hands. While his strong grip was firm like a pair of cuffs, his fur was soft and I couldn't help but blush as I felt it brush against the length of my arms.
-
-"Now, like this."
-
-I stood helplessly as he effortlessly moved my arms.
-
-"Now, you try."
-
-He let go, and I try to follow his movements.
-
-"Slowly. You want to relax, not complete the exercise."
-
-
