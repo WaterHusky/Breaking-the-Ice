@@ -1,9 +1,11 @@
 # Characters
+image define side konrad neutral = "side konrad neutral.png"
 image define side konrad happy = "side konrad happy.png"
 image define side konrad tired ="side konrad tired.png"
 image define side konrad annoyed ="side konrad annoyed.png"
 image define side konrad angry ="side konrad angry.png"
 image define side konrad crying ="side konrad crying.png"
+image define side tai zhou neutral = "side tai zhou neutral.png"
 image define side tai zhou fierce ="side tai zhou fierce.png"
 image define side tai zhou concerned ="side tai zhou concerned.png"
 image define side tai zhou smiling ="side tai zhou smiling.png"
