@@ -35,7 +35,7 @@ label cabin:
 
   "A low growl suddenly emanates from my stomach and I blush."
 
-  t neutral "Hungry? Don't worry. You clean up and get ready. I'll make breakfast."
+  t neutral "Hungry? Don't worry. Clean up and get ready. I'll make breakfast."
 
   show bg cabin_inside_day with dissolve
 

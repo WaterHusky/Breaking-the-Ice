@@ -29,7 +29,7 @@ label cabin:
 
   k neutral "Well, I hope you don't mind if I watch." 
   
-  I took a seat on the nearby sofa. He ignores me and carries on with his routine."
+  "I took a seat on the nearby sofa. He ignores me and carries on with his routine."
 
   "Tai Zhou carries on his routine for a bit, before turning to me."
   
