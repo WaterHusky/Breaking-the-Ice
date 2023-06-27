@@ -97,7 +97,7 @@ label cabinNight:
 
   menu:
     "Hug him":
-      #! +Physical
+      $ Physical += 1
 
       "Before I knew it, I had leaned forward and hugged him in an embrace. Tai Zhou seems startled, but lets it happen."
 
@@ -108,7 +108,7 @@ label cabinNight:
       "I backed off, blushing slightly and flush with embarrassment."
 
     "Sympathize with him":
-      #! +Emotional
+      $ Emotional += 1
 
       k neutral "I'm really sorry to hear about your parents, Tai Zhou. Losing loved ones can be incredibly difficult."
 
@@ -140,3 +140,5 @@ label cabinNight:
   k smiling "You too, Tai Zhou. Goodnight. Thanks again for letting me stay here."
 
   "I retreated to the bedroom area of the cabin, feeling a sense of contentment and gratitude."
+
+  jump cabinMorning2

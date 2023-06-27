@@ -39,9 +39,9 @@ label cabin:
 
     "He heads into another room. I hear the sound of wooden cupboards opening and closing."
 
-    "He passes me a towel. It’s warm and fluffy."
-
     show taizhou with dissolve
+
+    "He passes me a towel. It’s warm and fluffy."
 
     t "I got you a towel to dry yourself off. Then you can change into these."
 

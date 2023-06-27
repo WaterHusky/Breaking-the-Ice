@@ -7,7 +7,7 @@
 # k = Konrad (tired)
 # t = Tai Zhou (neutral, concerned, smiling)
 
-label cabin:
+label cabinMorning2:
 
   scene bg black
 
@@ -105,7 +105,7 @@ label cabin:
 
       "I dropped the pile on the floor and rushed back into the garage."
     "Get you something to drink?":
-      #! +Emotional
+      $ Emotional += 1
 
       "Since I can't help with chopping wood, I turn my attention to Tai Zhou's well-being."
 
@@ -121,7 +121,7 @@ label cabin:
 
       "I dropped the pile on the floor and rushed back into the garage."
     "Offer moral support?":
-      #! +Emotional
+      $ Emotional += 1
 
       "Even though I can't physically assist with the chopping, I can still offer my moral support."
 
@@ -140,7 +140,7 @@ label cabin:
       t angry "Ow!"
 
     "Get you a towel?":
-      #! +Physical
+      $ Physical += 1
 
       "As I notice Tai Zhou working up a sweat, I want to make sure he's comfortable."
 
@@ -168,7 +168,7 @@ label cabin:
 
   menu:
     "First aid!":
-      #! +Physical
+      $ Physical += 1
 
       k neutral "Let me see..."
 
@@ -197,7 +197,7 @@ label cabin:
       k smiling "You're welcome."
 
     "Maybe it's time for a break?":
-      #! +Emotional
+      $ Emotional += 1
 
       k smiling "You've been working hard, Tai Zhou. It might be a good idea to take a break and give yourself a chance to recover."
 
@@ -212,10 +212,10 @@ label cabin:
 
       t neutral "Thanks."
 
-    t neutral "Well, I think we have more than enough firewood by now, what say we head back?"
+  t neutral "Well, I think we have more than enough firewood by now, what say we head back?"
 
-    "I was more than happy to. The garage was freezing, though he probably didn't feel the same way."
+  "I was more than happy to. The garage was freezing, though he probably didn't feel the same way."
     
-    k neutral "Yeah, let's."
+  k neutral "Yeah, let's."
   
 

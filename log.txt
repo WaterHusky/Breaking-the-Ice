@@ -1,4 +1,4 @@
-Tue Jun 27 11:52:18 2023
+Tue Jun 27 12:02:22 2023
 Windows-10-10.0.22621
 Ren'Py 8.0.3.22090809
  
@@ -7,11 +7,38 @@ Bootstrap to the start of init.init took 0.04s
 Early init took 0.00s
 Loader init took 0.02s
 Loading error handling took 0.02s
-Loading script took 0.11s
+Loading script took 0.13s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/story/day2morning.rpy", line 217: Captions and say menuitems may not exist in the same menu.
+    "I was more than happy to. The garage was freezing, though he probably didn't feel the same way."
+                                                                                                     ^
+DPI scale factor: 1.104167
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.59s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 2080/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 536.23'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1718, 966) drawable=(1718, 966)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 84.27s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.02s
+Loading script took 0.12s
 Loading save slot metadata. took 0.02s
 Loading persistent took 0.00s
 Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\thesh\\Desktop\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.04s
+Running init code took 0.05s
 Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
@@ -23,7 +50,7 @@ Initial gc. took 0.01s
 DPI scale factor: 1.104167
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.39s
+Creating interface object took 0.27s
 Cleaning stores took 0.00s
 Init translation took 0.02s
 Build styles took 0.00s
@@ -35,7 +62,7 @@ Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.18s
+Interface start took 0.03s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -45,5 +72,5 @@ Vendor: "b'NVIDIA Corporation'"
 Renderer: b'NVIDIA GeForce RTX 2080/PCIe/SSE2'
 Version: b'4.6.0 NVIDIA 536.23'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1720, 967) drawable=(1720, 967)
+Screen sizes: virtual=(1920, 1080) physical=(1718, 966) drawable=(1718, 966)
 Maximum texture size: 4096x4096

@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/story/mugging.rpy", line 79: expected 'simple_expression' not found.
-    show mugger with at center with dissolve
-                     ^
+File "game/story/day2morning.rpy", line 217: Captions and say menuitems may not exist in the same menu.
+    "I was more than happy to. The garage was freezing, though he probably didn't feel the same way."
+                                                                                                     ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Tue Jun 27 11:29:01 2023
+Tue Jun 27 12:02:22 2023

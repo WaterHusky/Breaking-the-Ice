@@ -76,8 +76,6 @@ label mugging:
 
     t fierce "Can I help you?"
 
-    hide mugger with dissolve
-
     m shocked "What the—"
 
     "A leopard stands behind the mugger, restraining his knife-wielding arm in a vice-like grip. He’s a head taller than the mugger with a muscular build."
