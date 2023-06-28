@@ -10,12 +10,9 @@ define k = Character("Konrad", color = "#08f1f9" , image = "konrad")
 define t = Character("Taizhou", color = "#93E9BE" , image = "taizhou")
 define j = Character("Johnny", color = "#8303fb", image = "johnny")
 
-
-
-init:
-    $ Physical = 0;
-    $ Intellectual = 0;
-    $ Emotional = 0;
+default Physical = 0
+default Intellectual = 0
+default Emotional = 0
 
 screen physical_screen():
     frame:

@@ -1,73 +1,75 @@
 # Characters
-image define side konrad neutral = "side konrad neutral.png"
-image define konrad neutral = "konrad neutral.png"
-image define side konrad happy = "side konrad happy.png"
-image define side konrad tired ="side konrad tired.png"
-image define side konrad annoyed ="side konrad annoyed.png"
-image define side konrad angry ="side konrad angry.png"
-image define side konrad crying ="side konrad crying.png"
+image konrad = "images/konrad neutral.png"
+image side konrad neutral = "images/sides/k/side konrad neutral.png"
+image side konrad happy = "images/sides/k/side konrad happy.png"
+image side konrad tired ="images/sides/k/side konrad tired.png"
+image side konrad annoyed ="images/sides/k/side konrad annoyed.png"
+image side konrad angry ="images/sides/k/side konrad angry.png"
+image side konrad crying ="images/sides/k/side konrad crying.png"
 
-image define side taizhou neutral = "side taizhou neutral.png"
-image define taizhou neutral = "taizhou neutral.png"
-image define side taizhou fierce ="side taizhou fierce.png"
-image define side taizhou concerned ="side taizhou concerned.png"
-image define side taizhou smiling ="side taizhou smiling.png"
+image taizhou = "images/taizhou neutral.png"
+image side taizhou neutral = "images/sides/t/side taizhou neutral.png"
+image side taizhou fierce ="images/sides/t/side taizhou fierce.png"
+image side taizhou concerned ="images/sides/t/side taizhou concerned.png"
+image side taizhou smiling ="images/sides/t/side taizhou smiling.png"
 
-image define phone neutral = "phone neutral.png"
-image define side phone loud ="side phone loud.png"
+image phone = "images/phone neutral.png"
+image side phone loud ="images/sides/p/side phone loud.png"
 
-image define johnny neutral ="johnny neutral.png"
-image define side johnny happy ="side johnny happy.png"
+image johnny = "images/johnny neutral.png"
+image side johnny happy ="images/sides/j/side johnny happy.png"
 
-image define airplane announcer neutral = "airplane announcer neutral.png"
+image airplane announcer = "images/airplane announcer neutral.png"
 
-image define mugger neutral = "mugger neutral.png"
-image define side mugger fierce = "side mugger fierce.png"
-image define side mugger shocked = "side mugger shocked.png"
+image mugger = "images/mugger neutral.png"
+image side mugger fierce = "images/sides/m/side mugger fierce.png"
+image side mugger shocked = "images/sides/m/side mugger shocked.png"
 
 image konrad:
-    "konrad neutral.png"
+    "images/konrad neutral.png"
 image konrad neutral:
-    "side konrad neutral.png"
+    "images/sides/k/side konrad neutral.png"
 image konrad happy:
-    "side konrad happy.png"
+    "images/sides/k/side konrad happy.png"
 image konrad tired:
-    "side konrad tired.png"
+    "images/sides/k/side konrad tired.png"
 image konrad angry:
-    "side konrad angry.png"
+    "images/sides/k/side konrad angry.png"
+image konrad annoyed:
+    "images/sides/k/side konrad annoyed.png"
 image konrad crying:
-    "side konrad crying.png"
+    "images/sides/k/side konrad crying.png"
 
 image taizhou:
-    "taizhou neutral.png"
+    "images/taizhou neutral.png"
 image taizhou neutral:
-    "side taizhou neutral.png"
+    "images/sides/t/side taizhou neutral.png"
 image taizhou fierce:
-    "side taizhou fierce.png"
+    "images/sides/t/side taizhou fierce.png"
 image taizhou concerned:
-    "side taizhou concerned.png"
+    "images/sides/t/side taizhou concerned.png"
 image taizhou smiling:
-    "side taizhou smiling.png"
+    "images/sides/t/side taizhou smiling.png"
 
 image phone:
-    "phone neutral.png"
+    "images/phone neutral.png"
 image phone loud:
-    "side phone loud.png"
+    "images/sides/p/side phone loud.png"
 
 image johnny:
-    "johnny neutral.png"
+    "images/johnny neutral.png"
 image johnny happy:
-    "side johnny happy.png"
+    "images/sides/j/side johnny happy.png"
 
 image airplane announcer:
-    "airplane announcer neutral.png"
+    "images/airplane announcer neutral.png"
 
 image mugger:
-    "mugger neutral.png"
+    "images/mugger neutral.png"
 image mugger fierce:
-    "side mugger fierce.png"
+    "images/sides/m/side mugger fierce.png"
 image mugger shocked:
-    "side mugger shocked.png"
+    "images/sides/m/side mugger shocked.png"
 
 # Backgrounds
 
