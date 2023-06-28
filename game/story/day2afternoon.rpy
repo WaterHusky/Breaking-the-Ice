@@ -7,7 +7,7 @@
 # k = Konrad (tired)
 # t = Tai Zhou (neutral, concerned, smiling)
 
-label cabin:
+label cabinAfternoon2:
 
   scene bg black
 
@@ -71,7 +71,7 @@ label cabin:
 
   menu:
     "Captivated by You":
-      #! +Emotional
+      $ Emotional += 1
 
       "A sweet, romantic melody starts playing in Tai Zhou's ears. The delicate harmonies and gentle rhythm evoke a sense of longing and tenderness."
 
@@ -90,7 +90,7 @@ label cabin:
       "I hide a blush."
 
     "Concerto of Celestial Colors":
-      #! +Intellectual
+      $ Intellectual += 1
 
       "A complex orchestral arrangement starts playing in Tai Zhou's ears. The grandeur of the orchestral sound, the interplay of different instruments, and the ever-changing dynamics create a vivid musical tapestry."
 
@@ -131,7 +131,7 @@ label cabin:
 
   menu:
     "But you have other skills!":
-      #! +Intellectual
+      $ Intellectual += 1
 
       k neutral "Aww, I understand. Sometimes circumstances make it challenging to pursue certain paths."
     
@@ -144,7 +144,7 @@ label cabin:
       t smiling "I never really thought about it that way."
 
     "I'm sure they'll be proud of you.":
-      #! +Emotional
+      $ Emotional += 1
       k neutral "It's okay, I'm sure you did the right thing. Your family will be proud of you, won't they?"
 
       t smiling "Thanks. And yeah, they are."
@@ -173,3 +173,5 @@ label cabin:
   t smiling "No problem. Same to you. Enjoy your time here, I need to go prepare dinner."
 
   "With that, Tai Zhou leaves the room, allowing me to carry on with my work."
+
+  jump cabinNight2

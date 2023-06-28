@@ -217,5 +217,7 @@ label cabinMorning2:
   "I was more than happy to. The garage was freezing, though he probably didn't feel the same way."
     
   k neutral "Yeah, let's."
+
+  jump cabinAfternoon2
   
 

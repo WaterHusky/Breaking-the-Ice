@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 15: unexpected EOF while parsing
-    0;
-      ^
+File "game/story/day2night.rpy", line 117: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
+    "Keep going."
+                 ^
 
-Ren'Py Version: Ren'Py 8.0.3.22090809
-Tue Jun 27 20:34:41 2023
+Ren'Py Version: Ren'Py 8.1.1.23060707
+Wed Jun 28 11:28:10 2023

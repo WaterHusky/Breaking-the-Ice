@@ -7,7 +7,7 @@
 # k = Konrad (tired)
 # t = Tai Zhou (neutral, concerned, smiling)
 
-label cabin:
+label cabinNight2:
 
   scene bg black
 
@@ -67,7 +67,7 @@ label cabin:
 
           jump scene_end
 
-  #! + Physical
+  $ Physical += 1
 
   "I quickly strip down and join Tai Zhou in the warm, inviting waters of the hot tub. The tension from the awkward bathroom encounter dissipates as we settle into the relaxing embrace of the hot water."
 
@@ -79,7 +79,7 @@ label cabin:
 
   menu:
     "Let's talk.":
-      #! +Intellectual
+      $ Intellectual += 1
 
       k neutral "Tai Zhou, you've mentioned your family before, but I don't know much about them. What were they like?"
 
@@ -98,7 +98,7 @@ label cabin:
       t smiling "Thank you, Konrad. Your kind words mean a lot to me."
 
     "Let's skip the chatter ;)":
-      #! +Physical
+      $ Physical += 1
 
       "I found my body slowly inching towards where he sat. Before I knew it, my shoulders were brushing up against his."
 
@@ -114,8 +114,8 @@ label cabin:
 
           t neutral "It's okay."
 
-        "Keep going."
-          #! +Physical
+        "Keep going.":
+          $ Physical += 1
 
           "I turned towards him, and began softly brushing the tip of my snout against his neck."
 
@@ -128,13 +128,15 @@ label cabin:
           show bg black with dissolve
       
     "Let's just enjoy the moment.":
-      #! +Emotional
+      $ Emotional += 1
       "The air fills with a comfortable silence as we continue to enjoy the serene ambience. The warm water envelops us, washing away any lingering worries or stress."
 
       k neutral "You know, Tai Zhou, spending time with you has made this snowstorm more bearable. I'm grateful for your company."
 
       t neutral "Likewise, Konrad. It's been a pleasure getting to know you."
 
-  "The sound of the crackling fire, combined with the bubbling water, creates a symphony of tranquility. As the snow continues to fall outside, we remain in the hot tub, sharing stories, laughter, and enjoying each other's company. It's a moment of genuine connection and warmth amidst the wintry embrace of the log cabin."
+  "The sound of the crackling fire, combined with the bubbling water, creates a symphony of tranquility. As the snow continues to fall outside, we remain in the hot tub, sharing stories, laughter, and enjoying each other's company."
+
+  "It's a moment of genuine connection and warmth amidst the wintry embrace of the log cabin."
 
   label scene_end:
