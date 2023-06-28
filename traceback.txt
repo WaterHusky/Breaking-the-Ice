@@ -1,28 +1,36 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/story/mugging.rpy", line 31, in script
-    show mugger with dissolve_sustained
-  File "game/story/mugging.rpy", line 31, in <module>
-    show mugger with dissolve_sustained
-NameError: name 'dissolve_sustained' is not defined
+  File "game/story/mugging.rpy", line 83, in script
+    m fierce "Let go of me!"
+Exception: Image 'mugger' does not accept attributes 'fierce'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/story/mugging.rpy", line 31, in script
-    show mugger with dissolve_sustained
-  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\ast.py", line 1654, in execute
-    paired = renpy.python.py_eval(self.paired)
-  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\python.py", line 1092, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\python.py", line 1085, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/story/mugging.rpy", line 31, in <module>
-    show mugger with dissolve_sustained
-NameError: name 'dissolve_sustained' is not defined
+  File "game/story/mugging.rpy", line 83, in script
+    m fierce "Let go of me!"
+  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\ast.py", line 921, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\exports.py", line 1373, in say
+    who(what, *args, **kwargs)
+  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\character.py", line 1206, in __call__
+    old_attr_state = self.handle_say_attributes(False, interact)
+  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\character.py", line 1030, in handle_say_attributes
+    if self.resolve_say_attributes(predicting, attrs):
+  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\character.py", line 986, in resolve_say_attributes
+    renpy.exports.show(show_image)
+  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\exports.py", line 686, in show
+    if not base.find_target() and renpy.config.missing_show:
+  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\display\image.py", line 414, in find_target
+    self.target = target._duplicate(a)
+  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\display\transform.py", line 881, in _duplicate
+    args.extraneous()
+  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\display\core.py", line 265, in extraneous
+    raise Exception("Image '{}' does not accept attributes '{}'.".format(
+Exception: Image 'mugger' does not accept attributes 'fierce'.
 
 Windows-10-10.0.22621 AMD64
 Ren'Py 8.0.3.22090809
 Breaking the Ice 1.0
-Tue Jun 27 11:19:19 2023
+Tue Jun 27 22:19:56 2023
