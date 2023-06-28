@@ -30,7 +30,7 @@ label mugging:
 
     m fierce "Hand me your stuff and nobody gets hurt."
 
-    show mugger with dissolve
+    show muggger with dissolve
 
     "I’m getting mugged."
 
@@ -124,7 +124,7 @@ label mugging:
 
     m "S—screw you!"
 
-    hide mugger with dissolve
+    hide muggger with dissolve
 
     "Clutching his injured arm, he runs away, disappearing around the street corner."
 
