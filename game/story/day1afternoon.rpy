@@ -72,7 +72,7 @@ label cabinAfternoon:
 
           k smiling "Sorry, it's just that... I'm not used to being this close to someone."
           
-          "I hadn't seen Johnny in three months, and even before that we hardly ever met in person."
+          "Come to think of it, I hadn't seen Johnny in three months."
 
           t neutral "Well, would you like me to stop?"
 

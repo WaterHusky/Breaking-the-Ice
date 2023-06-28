@@ -27,15 +27,15 @@ label cabinAfternoon2:
 
   k neutral "Who could it be?"
 
-  "I make my way to the door and open it, revealing Tai Zhou standing there, curiosity in his eyes."
+  "Well, who else? I make my way to the door and open it, revealing Tai Zhou standing there, curiosity in his eyes."
 
   k smiling "Tai Zhou! What's up?"
 
-  t neutral "I heard some strange noises coming from the cabin. May I come in?"
+  t neutral "I heard some strange noises coming from the room. May I come in?"
 
   k neutral "Of course, come on in. I'm just working on some music."
 
-  "Tai Zhou enters the cabin and looks around, taking in the sight of my laptop."
+  "Tai Zhou enters the room and looks around, taking in the sight of my laptop."
 
   t neutral "What's this?"
 
