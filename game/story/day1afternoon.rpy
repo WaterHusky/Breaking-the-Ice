@@ -1,17 +1,14 @@
 # # Background
 # black
-# cabin_outside_day
 # cabin_inside_day
 
 # # Characters
-# k = Konrad (tired)
+# k = Konrad (neutral, smiling, sad, concerned)
 # t = Tai Zhou (neutral, concerned, smiling)
 
 label cabinAfternoon:
 
-    scene bg black
-
-    show bg cabin_inside_day
+    scene bg cabin_inside_day
     
     "The storm continued to rage outside, and I continued to lay in the bed that Tai Zhou had graciously provided. He mentioned he was busy with work, leaving me alone in the room."
 

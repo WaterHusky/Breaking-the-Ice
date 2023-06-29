@@ -1,17 +1,14 @@
 # # Background
 # black
-# cabin_outside_day
-# cabin_inside_day
+# cabin_inside_night
 
 # # Characters
-# k = Konrad (tired)
-# t = Tai Zhou (neutral, concerned, smiling)
+# k = Konrad (neutral, smiling, relaxed)
+# t = Tai Zhou (neutral, smiling)
 
 label cabinNight2:
 
-    scene bg black
-
-    show bg cabin_inside_night
+    scene bg cabin_inside_night
     
     "Before I knew it, night had come around again. The sky was dark, but given the current state of weather it could've been any time between 3pm and 12am."
 

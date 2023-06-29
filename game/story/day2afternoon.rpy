@@ -1,17 +1,13 @@
 # # Background
-# black
-# cabin_outside_day
 # cabin_inside_day
 
 # # Characters
-# k = Konrad (tired)
-# t = Tai Zhou (neutral, concerned, smiling)
+# k = Konrad (neutral, smiling)
+# t = Tai Zhou (neutral, smiling, impressed)
 
 label cabinAfternoon2:
 
-    scene bg black
-
-    show bg cabin_inside_day
+    scene bg cabin_inside_day
     
     "I lay back in my chair, sipping on a cup of hot cocoa while my laptop sat in front of me, whirring away noisily as it blew hot air into the cold atmosphere. Thankfully, there was still power up here in this cabin."
     

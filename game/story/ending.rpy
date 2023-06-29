@@ -1,3 +1,14 @@
+# # Background
+# black
+# cabin_inside_day
+# cabin_inside_night
+# snowscape
+# airport
+
+# # Characters
+# k = Konrad (tired)
+# t = Tai Zhou (neutral, concerned, smiling)
+
 label ending:
 
     # Starts on day 3 evening
@@ -7,7 +18,7 @@ label ending:
     $ success_intellectual = true or false
     $ success_emotional = true or false
 
-    show bg cabin_inside_night
+    scene bg cabin_inside_night
     
     "It's getting late."
 

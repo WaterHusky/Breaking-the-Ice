@@ -1,17 +1,14 @@
 # # Background
 # black
-# cabin_outside_day
 # cabin_inside_day
 
 # # Characters
-# k = Konrad (tired)
-# t = Tai Zhou (neutral, concerned, smiling)
+# k = Konrad (neutral, smiling)
+# t = Tai Zhou (neutral, smiling, concerned)
 
 label cabinMorning:
 
-    scene bg black
-
-    show bg cabin_inside_day
+    scene bg cabin_inside_day
     
     "I slowly opened my eyes, the remnants of sleep clinging to my senses. The warmth of the cabin enveloped me, providing a stark contrast to the frigid air outside."
 

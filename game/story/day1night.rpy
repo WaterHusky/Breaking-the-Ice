@@ -1,17 +1,14 @@
 # # Background
 # black
-# cabin_outside_day
-# cabin_inside_day
+# cabin_inside_night
 
 # # Characters
-# k = Konrad (tired)
-# t = Tai Zhou (neutral, concerned, smiling)
+# k = Konrad (neutral, smiling)
+# t = Tai Zhou (neutral, smiling, agreeing, sad, nodding)
 
 label cabinNight:
 
-    scene bg black
-
-    show bg cabin_inside_night
+    scene bg cabin_inside_night
     
     "My ears soon became accustomed to the howling winds outside. This blizzard was relentless. With what scant mobile reception reached the edge of the mountain, I struggled to look up weather information, but at this point it seemed obvious that I would have to stay in here for another night at the very least."
 

@@ -1,17 +1,14 @@
 # # Background
 # black
-# cabin_outside_day
 # cabin_inside_day
 
 # # Characters
-# k = Konrad (tired)
-# t = Tai Zhou (neutral, concerned, smiling)
+# k = Konrad (neutral, smiling, angry, sad)
+# t = Tai Zhou (neutral, smiling, impressed, angry)
 
 label cabinMorning2:
 
-    scene bg black
-
-    show bg cabin_inside_day
+    scene bg cabin_inside_day
     
     "I wake up the next day, feeling refreshed from a restful sleep. The morning light filters through the cabin windows, casting a gentle glow on the surroundings. Stretching my limbs, I sit up in bed and reach for my phone on the bedside table."
 

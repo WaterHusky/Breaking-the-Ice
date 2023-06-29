@@ -1,17 +1,14 @@
 # # Background
 # black
-# cabin_outside_day
 # cabin_inside_day
 
 # # Characters
-# k = Konrad (tired)
-# t = Tai Zhou (neutral, concerned, smiling)
+# k = Konrad (neutral, smiling, angry)
+# t = Tai Zhou (neutral, smiling)
 
 label cabinAfternoon3:
 
-    scene bg black
-
-    show bg cabin_inside_day
+    scene bg cabin_inside_day
     
     "I flipped another page of my book, settling myself comfily in the living room. All my holiday plans went out the window, but for some reason I didn't seem to mind. I was starting to get used to being around here."
 
@@ -103,11 +100,11 @@ label cabinAfternoon3:
 
             k smiling "I think it's important for a partner to be someone I can connect with on both physical and emotional levels."
             
-            k smiling "Someone who shares similar values, goals, and aspirations.
+            k smiling "Someone who shares similar values, goals, and aspirations."
             
             k smiling "I believe in supporting each other's growth and being able to have deep intellectual conversations."
 
-            k smiling "That to me is a strong foundation for a relationship.
+            k smiling "That to me is a strong foundation for a relationship."
             
             t smiling "I agree, it's important to have that connection on an intellectual level."
             

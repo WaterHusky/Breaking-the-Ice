@@ -1,17 +1,14 @@
 # # Background
 # black
-# cabin_outside_day
 # cabin_inside_day
 
 # # Characters
-# k = Konrad (tired)
-# t = Tai Zhou (neutral, concerned, smiling)
+# k = Konrad (neutral, smiling, angry)
+# t = Tai Zhou (neutral, smiling, nodding)
 
 label cabinMorning3:
 
-    scene bg black
-
-    show bg cabin_inside_day
+    scene bg cabin_inside_day
     
     "It's another day in the cabin. The worst of the storm seems to have subsided, from what I could hear. Still, I couldn't see the outside, since the cabin was still snowed in. Hopefully everything would melt by tomorrow."
     
