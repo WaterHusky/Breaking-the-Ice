@@ -152,21 +152,7 @@ label cabinAfternoon3:
 
   "I lay down and closed my eyes. I could feel the gentle rise and fall of Tai Zhou's breath, syncing with mine. The rhythmic sound and the comforting presence beside me lulled me into a peaceful slumber."
 
-  "The cabin was filled with a tranquil silence, broken only by the crackling of the fireplace and our synchronized breathing. In this moment, time seemed to stand still, and the world outside was forgotten.
-  
-  t neutral "Do you hear that?"
-
-  k neutral "Hear what?"
-
-  t neutral "Exactly."
-  
-  t neutral "Silence."
-
-  t neutral "The storm has ended."
-
-  k neutral "Oh!"
-
-  "I knew I should be happier, but all I could think about was taking a nap with Tai Zhou."
+  "The cabin was filled with a tranquil silence, broken only by the crackling of the fireplace and our synchronized breathing. In this moment, time seemed to stand still, and the world outside was forgotten. All I could think about was taking a nap with Tai Zhou."
   
   "We found solace in each other's company, even in the simplicity of sharing a nap."
 
