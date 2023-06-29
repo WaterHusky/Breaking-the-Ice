@@ -137,3 +137,5 @@ label cabinNight2:
     "It's a moment of genuine connection and warmth amidst the wintry embrace of the log cabin."
 
     label scene_end:
+
+    jump cabinMorning3

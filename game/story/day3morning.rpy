@@ -86,7 +86,7 @@ label cabinMorning3:
 
     menu:
         "It was my fault":
-            #! +Emotional
+            $ Emotional += 1
             k neutral "It was my fault, really. I let my insecurities and doubts get the best of me. I couldn't fully trust Johnny, even though he had given me no reason to doubt him."
             
             k neutral "I pushed him away, questioning his every move, and it eventually became too much for him to handle."
@@ -105,7 +105,7 @@ label cabinMorning3:
             t neutral "Well, relationships can be quite tricky, I agree."
 
         "It was mutual":
-            #! +Intellectual
+            $ Intellectual += 1
             k neutral "Looking back, I think it was both our faults. We both had our own issues and insecurities that we couldn't fully address or overcome together."
             
             k neutral "We lacked effective communication and understanding. It became a toxic cycle of miscommunication and blame, and in the end, we couldn't salvage what we once had."
@@ -148,7 +148,7 @@ label cabinMorning3:
 
     menu:
         "Priorities, am I right?":
-            #! +Intellectual
+            $ Intellectual += 1
             k neutral "I see. It sounds like you've prioritized other aspects of your life."
 
             t neutral "Yes, exactly. I have goals and aspirations."
@@ -159,7 +159,7 @@ label cabinMorning3:
 
             k neutral "I can respect that. Love will always naturally come later."
         "Well, when it happens, it happens.":
-            #! +Emotional
+            $ Emotional += 1
 
             k neutral "I see. Well I don't go out of my way to look for relationships either, but it can be a tricky thing, especially when it comes to relationships. Sometimes the universe has its own plans for us."
 
@@ -168,7 +168,7 @@ label cabinMorning3:
             k smiling "I feel the same way, Tai Zhou. Sometimes unexpected circumstances bring people together in the most beautiful ways."
         
         "Are you looking for one right now?":
-            #! +Physical
+            $ Physical += 1
             k neutral "Are you open to the idea of being in a relationship now?"
 
             t neutral "Well, I've never actively looked for one. If the right person comes along, I'm willing to explore it."
@@ -188,3 +188,5 @@ label cabinMorning3:
     t smiling "Thanks for cooking, Konrad. I don't think I've had a meal like that in a long time."
 
     k smiling "You're welcome! I'm glad you loved it."
+
+    jump cabinAfternoon3

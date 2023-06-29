@@ -14,9 +14,9 @@ label ending:
     # Starts on day 3 evening
 
     # Todo: Assign conditionals based on score
-    $ success_physical = true or false
-    $ success_intellectual = true or false
-    $ success_emotional = true or false
+    $ success_physical = false
+    $ success_intellectual = false
+    $ success_emotional = false
 
     scene bg cabin_inside_night
     
@@ -47,10 +47,10 @@ label ending_evening:
     if success_emotional:
         # They have a heart-to-heart talk about where their friendship is going to go
         call ending_evening_emotional
-    elif success_intellectual:
+    else if success_intellectual:
         # They have a talk about life and the philosophy of goodbyes
         call ending_evening_intellectual
-    elif success_physical:
+    else if success_physical:
         # Instead of chatting, Tai Zhou eases them into the bedroom scene
         call ending_evening_physical
     else:

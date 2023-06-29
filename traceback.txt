@@ -1,36 +1,26 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/story/mugging.rpy", line 83, in script
-    m fierce "Let go of me!"
-Exception: Image 'mugger' does not accept attributes 'fierce'.
+  File "game/story/ending.rpy", line 17, in script
+    $ success_physical = true or false
+  File "game/story/ending.rpy", line 17, in <module>
+    $ success_physical = true or false
+NameError: name 'true' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/story/mugging.rpy", line 83, in script
-    m fierce "Let go of me!"
-  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\ast.py", line 921, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\exports.py", line 1373, in say
-    who(what, *args, **kwargs)
-  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\character.py", line 1206, in __call__
-    old_attr_state = self.handle_say_attributes(False, interact)
-  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\character.py", line 1030, in handle_say_attributes
-    if self.resolve_say_attributes(predicting, attrs):
-  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\character.py", line 986, in resolve_say_attributes
-    renpy.exports.show(show_image)
-  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\exports.py", line 686, in show
-    if not base.find_target() and renpy.config.missing_show:
-  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\display\image.py", line 414, in find_target
-    self.target = target._duplicate(a)
-  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\display\transform.py", line 881, in _duplicate
-    args.extraneous()
-  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\display\core.py", line 265, in extraneous
-    raise Exception("Image '{}' does not accept attributes '{}'.".format(
-Exception: Image 'mugger' does not accept attributes 'fierce'.
+  File "game/story/ending.rpy", line 17, in script
+    $ success_physical = true or false
+  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\ast.py", line 1138, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\python.py", line 1122, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/story/ending.rpy", line 17, in <module>
+    $ success_physical = true or false
+NameError: name 'true' is not defined
 
 Windows-10-10.0.22621 AMD64
-Ren'Py 8.0.3.22090809
+Ren'Py 8.1.1.23060707
 Breaking the Ice 1.0
-Tue Jun 27 22:19:56 2023
+Thu Jun 29 12:20:30 2023
