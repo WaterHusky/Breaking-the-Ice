@@ -18,6 +18,34 @@ label ending:
     $ success_intellectual = false
     $ success_emotional = false
 
+    #default Physical
+    #default Intellectual
+    #default Emotional
+    
+    if Physical > max(Intellectual, Emotional):
+        $ success_physical = true
+    elif Intellectual > max(Physical, Emotional):
+        $ success_intellectual = true
+    elif Emotional > max(Physical, Intellectual):
+        $ success_emotional = true
+    elif Physical == Intellectual:
+        $ success_physical = true
+        $ success_intellectual = true
+    elif Physical == Emotional:
+        $ success_physical = true
+        $ success_emotional = true
+    elif Intellectual == Emotional:
+        $ success_intellectual = true
+        $ success_emotional = true
+    elif Physical == Intellectual == Emotional:
+        $ success_physical = true
+        $ success_intellectual = true
+        $ success_emotional = true
+    else:
+        $ success_physical = false
+        $ success_intellectual = false
+        $ success_emotional = false
+
     scene bg cabin_inside_night
     
     "It's getting late."
@@ -47,10 +75,10 @@ label ending_evening:
     if success_emotional:
         # They have a heart-to-heart talk about where their friendship is going to go
         call ending_evening_emotional
-    else if success_intellectual:
+    elif success_intellectual:
         # They have a talk about life and the philosophy of goodbyes
         call ending_evening_intellectual
-    else if success_physical:
+    elif success_physical:
         # Instead of chatting, Tai Zhou eases them into the bedroom scene
         call ending_evening_physical
     else:
