@@ -1,26 +1,26 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/story/ending.rpy", line 17, in script
-    $ success_physical = true or false
-  File "game/story/ending.rpy", line 17, in <module>
-    $ success_physical = true or false
+  File "game/story/ending.rpy", line 23, in script
+    $ success_physical = true
+  File "game/story/ending.rpy", line 23, in <module>
+    $ success_physical = true
 NameError: name 'true' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/story/ending.rpy", line 17, in script
-    $ success_physical = true or false
+  File "game/story/ending.rpy", line 23, in script
+    $ success_physical = true
   File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\ast.py", line 1138, in execute
     renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
   File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\python.py", line 1122, in py_exec_bytecode
     exec(bytecode, globals, locals)
-  File "game/story/ending.rpy", line 17, in <module>
-    $ success_physical = true or false
+  File "game/story/ending.rpy", line 23, in <module>
+    $ success_physical = true
 NameError: name 'true' is not defined
 
 Windows-10-10.0.22621 AMD64
 Ren'Py 8.1.1.23060707
 Breaking the Ice 1.0
-Thu Jun 29 12:20:30 2023
+Thu Jun 29 22:44:13 2023

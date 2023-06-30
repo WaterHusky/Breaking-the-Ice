@@ -5,21 +5,26 @@ image side kon happy = "images/sides/k/side konrad happy.png"
 image side kon tired ="images/sides/k/side konrad tired.png"
 image side kon annoyed ="images/sides/k/side konrad annoyed.png"
 image side kon angry ="images/sides/k/side konrad angry.png"
-image side kon crying ="images/sides/k/side konrad crying.png"
+image side kon relaxed ="images/sides/k/side konrad crying.png"
+image side kon smiling ="images/sides/k/side konrad crying.png"
+image side kon laughing ="images/sides/k/side konrad laughing.png"
 
 image tai = "images/taizhou neutral.png"
 image side tai neutral = "images/sides/t/side taizhou neutral.png"
-image side tai fierce ="images/sides/t/side taizhou fierce.png"
-image side taiconcerned ="images/sides/t/side taizhou concerned.png"
+image side tai fierce ="images/sides/t/side taizhou angry.png"
+image side tai concerned ="images/sides/t/side taizhou concerned.png"
+image side tai dismayed ="images/sides/t/side taizhou dismayed.png"
 image side tai smiling ="images/sides/t/side taizhou smiling.png"
+image side tai angry ="images/sides/t/side taizhou angry.png"
+image side tai tired ="images/sides/t/side taizhou tired.png"
+image side tai sad ="images/sides/t/side taizhou sad.png"
+image side tai agreeing ="images/sides/t/side taizhou agreeing.png"
+image side tai nodding ="images/sides/t/side taizhou nodding.png"
+image side tai impressed ="images/sides/t/side taizhou impressed.png"
+image side tai laughing ="images/sides/t/side taizhou laugh.png"
 
 image phone = "images/phone neutral.png"
 image side phone loud ="images/sides/p/side phone loud.png"
-
-image joh = "images/johnny neutral.png"
-image side joh happy ="images/sides/j/side johnny happy.png"
-
-image airplane announcer = "images/airplane announcer neutral.png"
 
 image mug = "images/mugger neutral.png"
 image side mug fierce = "images/sides/m/side mugger fierce.png"
@@ -55,14 +60,6 @@ image phone:
     "images/phone neutral.png"
 image phone loud:
     "images/sides/p/side phone loud.png"
-
-image johnny:
-    "images/johnny neutral.png"
-image johnny happy:
-    "images/sides/j/side johnny happy.png"
-
-image airplane announcer:
-    "images/airplane announcer neutral.png"
 
 image muggger:
     "images/mugger neutral.png"

@@ -11,40 +11,40 @@
 
 label ending:
 
+    $ success_physical = False
+    $ success_intellectual = False
+    $ success_emotional = False
     # Starts on day 3 evening
 
     # Todo: Assign conditionals based on score
-    $ success_physical = false
-    $ success_intellectual = false
-    $ success_emotional = false
 
     #default Physical
     #default Intellectual
     #default Emotional
     
     if Physical > max(Intellectual, Emotional):
-        $ success_physical = true
+        $ success_physical = True
     elif Intellectual > max(Physical, Emotional):
-        $ success_intellectual = true
+        $ success_intellectual = True
     elif Emotional > max(Physical, Intellectual):
-        $ success_emotional = true
+        $ success_emotional = True
     elif Physical == Intellectual:
-        $ success_physical = true
-        $ success_intellectual = true
+        $ success_physical = True
+        $ success_intellectual = True
     elif Physical == Emotional:
-        $ success_physical = true
-        $ success_emotional = true
+        $ success_physical = True
+        $ success_emotional = True
     elif Intellectual == Emotional:
-        $ success_intellectual = true
-        $ success_emotional = true
+        $ success_intellectual = True
+        $ success_emotional = True
     elif Physical == Intellectual == Emotional:
-        $ success_physical = true
-        $ success_intellectual = true
-        $ success_emotional = true
+        $ success_physical = True
+        $ success_intellectual = True
+        $ success_emotional = True
     else:
-        $ success_physical = false
-        $ success_intellectual = false
-        $ success_emotional = false
+        $ success_physical = False
+        $ success_intellectual = False
+        $ success_emotional = False
 
     scene bg cabin_inside_night
     
@@ -128,10 +128,10 @@ label ending_reflection:
     elif success_physical and success_emotional:
         # if physical+emotional, they chat after Konrad returns to his life, and Konrad looks forward to visiting again, imagining their bodies against each other
         call ending_reflection_physical_emotional
-    elif success_emotional:
+    elif  (success_intellectual and success_emotional) or (success_emotional):
         # if intellectual+emotional or emotional, they become good friends
         call ending_reflection_emotional
-    elif success_physical or success_intellectual:
+    elif (success_physical and success_intellectual) or (success_physical or success_intellectual):
         # if physical+intellectual or physical or intellectual, they chat for a while, but it trails off, and life goes on 
         call ending_reflection_physical_intellectual
     else:

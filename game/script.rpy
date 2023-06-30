@@ -5,10 +5,9 @@
 
 define m = Character ("Mugger", color = "#303030", image = "mug")
 define a = Character ("Airplane Announcer", color = "#ffffff" , image = "airplane announcer")
-define p = Character ("Phone", color = "#330808" , image = "phone")
+define p = Character ("Johnny", color = "#330808" , image = "phone")
 define k = Character("Konrad", color = "#067d26" , image = "kon")
-define t = Character("Taizhou", color = "#14234d" , image = "tai")
-define j = Character("Johnny", color = "#330808", image = "joh")
+define t = Character("Tai zhou", color = "#14234d" , image = "tai")
 
 default Physical = 0
 default Intellectual = 0

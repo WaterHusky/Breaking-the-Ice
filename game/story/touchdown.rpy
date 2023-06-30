@@ -121,27 +121,27 @@ label touchdown:
 
     k "“And you prefer to leave me stranded at the airport?”"
 
-    j "“You’re not stranded. Just take a damn cab over!”"
+    p "“You’re not stranded. Just take a damn cab over!”"
 
     k "“So what, screw our dinner plans at Solstice Garden? Screw the car ride back together? Is this how you treat your boyfriend?”"
 
-    j "“You’re so fucking high-maintanence. Maybe if you weren’t always going ‘we need to talk’, I wouldn’t have to ignore you so much. Get the fucking hint.”"
+    p "“You’re so fucking high-maintanence. Maybe if you weren’t always going ‘we need to talk’, I wouldn’t have to ignore you so much. Get the fucking hint.”"
 
     k "“The heck?”"
 
-    j "“Whatever I do is never good enough for you, huh? Fine. We’re done. Don’t come over. Hope you find someone who can babysit your whiny ass.”"
+    p "“Whatever I do is never good enough for you, huh? Fine. We’re done. Don’t come over. Hope you find someone who can babysit your whiny ass.”"
 
     "There’s a loud bang as I hear him throw the phone at the wall."
 
-    j happy "“Sorry about that.”"
+    p happy "“Sorry about that.”"
 
     "He’s talking to his guild mates."
 
-    j "“Yeah, it’s my fucking boyfriend again. Well, my ex now. Dumped his ass.”"
+    p "“Yeah, it’s my fucking boyfriend again. Well, my ex now. Dumped his ass.”"
 
     "He laughs."
 
-    j "“Haha, yeah. Literally just.”"
+    p "“Haha, yeah. Literally just.”"
 
     k crying "I end the call. People are staring at me, but I can’t see their faces clearly through the tears in my eyes."
 
