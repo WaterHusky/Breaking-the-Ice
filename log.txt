@@ -1,345 +1,41 @@
-Thu Jun 29 22:37:41 2023
+Thu Jun 29 23:57:23 2023
 Windows-10-10.0.22621
 Ren'Py 8.1.1.23060707
  
 
-Bootstrap to the start of init.init. took 0.04s
+Bootstrap to the start of init.init. took 0.03s
 Early init. took 0.00s
-Loader init. took 0.05s
+Loader init. took 0.03s
 Loading error handling. took 0.03s
-Loading script. took 0.19s
-Loading save slot metadata. took 0.05s
+Loading script. took 0.25s
+Loading save slot metadata. took 0.04s
 Loading persistent. took 0.00s
 Running init code. took 0.05s
-Loading analysis data. took 0.01s
-Analyze and compile ATL. took 0.01s
-Reloading save slot metadata. took 0.04s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\thesh\\AppData\\Roaming/RenPy/backups\\Breaking the Ice':
-Dump and make backups. took 0.06s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.02s
-DPI scale factor: 1.104167
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.46s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.01s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.23s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 2080/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 536.40'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1714, 964) drawable=(1714, 964)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/story/ending.rpy", line 17, in script
-    $ success_physical = false
-  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\ast.py", line 1138, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\python.py", line 1122, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/story/ending.rpy", line 17, in <module>
-    $ success_physical = false
-NameError: name 'false' is not defined
-
-While running game code:
-  File "game/story/ending.rpy", line 17, in script
-    $ success_physical = false
-  File "game/story/ending.rpy", line 17, in <module>
-    $ success_physical = false
-NameError: name 'false' is not defined
-Resetting cache.
-Bootstrap to the start of init.init. took 101.02s
-Early init. took 0.00s
-Loader init. took 0.03s
-Loading error handling. took 0.03s
-Loading script. took 0.14s
-Loading save slot metadata. took 0.03s
-Loading persistent. took 0.00s
-Running init code. took 0.03s
-Loading analysis data. took 0.01s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.04s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\thesh\\AppData\\Roaming/RenPy/backups\\Breaking the Ice':
-Dump and make backups. took 0.07s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.02s
-DPI scale factor: 1.104167
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.32s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.04s
-Running _start took 0.00s
-
-Full traceback:
-  File "renpy/common/00start.rpy", line 189, in script
-    python:
-  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\ast.py", line 1138, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\python.py", line 1122, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "renpy/common/00start.rpy", line 190, in <module>
-    renpy.execute_default_statement(True)
-  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\exports.py", line 3972, in execute_default_statement
-    i.execute_default(start)
-  File "game/story/ending.rpy", line 17, in execute_default
-    default success_physical = false
-  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\python.py", line 1146, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/story/ending.rpy", line 17, in <module>
-    default success_physical = false
-NameError: name 'false' is not defined
-
-While running game code:
-  File "renpy/common/00start.rpy", line 189, in script
-    python:
-  File "renpy/common/00start.rpy", line 190, in <module>
-    renpy.execute_default_statement(True)
-  File "game/story/ending.rpy", line 17, in execute_default
-    default success_physical = false
-  File "game/story/ending.rpy", line 17, in <module>
-    default success_physical = false
-NameError: name 'false' is not defined
-Interface start. took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 2080/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 536.40'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1714, 964) drawable=(1714, 964)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 190.86s
-Early init. took 0.00s
-Loader init. took 0.03s
-Loading error handling. took 0.02s
-Loading script. took 0.14s
-Loading save slot metadata. took 0.04s
-Loading persistent. took 0.00s
-Running init code. took 0.03s
-Loading analysis data. took 0.01s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.04s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\thesh\\AppData\\Roaming/RenPy/backups\\Breaking the Ice':
-Dump and make backups. took 0.05s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.02s
-DPI scale factor: 1.104167
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.47s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 2080/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 536.40'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1714, 964) drawable=(1714, 964)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/story/ending.rpy", line 17, in script
-    $ success_physical = false
-  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\ast.py", line 1138, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\python.py", line 1122, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/story/ending.rpy", line 17, in <module>
-    $ success_physical = false
-NameError: name 'false' is not defined
-
-While running game code:
-  File "game/story/ending.rpy", line 17, in script
-    $ success_physical = false
-  File "game/story/ending.rpy", line 17, in <module>
-    $ success_physical = false
-NameError: name 'false' is not defined
-Resetting cache.
-Bootstrap to the start of init.init. took 292.11s
-Early init. took 0.00s
-Loader init. took 0.03s
-Loading error handling. took 0.02s
-Loading script. took 0.17s
-Loading save slot metadata. took 0.04s
-Loading persistent. took 0.00s
-
-Full traceback:
-  File "game/story/ending.rpy", line 13, in script
-    $ success_physical = false
-  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\ast.py", line 1138, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\python.py", line 1122, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/story/ending.rpy", line 13, in <module>
-    $ success_physical = false
-NameError: name 'false' is not defined
-
-While running game code:
-  File "game/story/ending.rpy", line 13, in script
-    $ success_physical = false
-  File "game/story/ending.rpy", line 13, in <module>
-    $ success_physical = false
-NameError: name 'false' is not defined
-DPI scale factor: 1.104167
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start. took 0.48s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 2080/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 536.40'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1714, 964) drawable=(1714, 964)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 390.08s
-Early init. took 0.00s
-Loader init. took 0.04s
-Loading error handling. took 0.03s
-Loading script. took 0.15s
-Loading save slot metadata. took 0.04s
-Loading persistent. took 0.00s
-Running init code. took 0.04s
-Loading analysis data. took 0.01s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.04s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\thesh\\AppData\\Roaming/RenPy/backups\\Breaking the Ice':
-Dump and make backups. took 0.06s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.104167
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.36s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.03s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 2080/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 536.40'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1714, 964) drawable=(1714, 964)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/story/ending.rpy", line 23, in script
-    $ success_physical = true
-  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\ast.py", line 1138, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\python.py", line 1122, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/story/ending.rpy", line 23, in <module>
-    $ success_physical = true
-NameError: name 'true' is not defined
-
-While running game code:
-  File "game/story/ending.rpy", line 23, in script
-    $ success_physical = true
-  File "game/story/ending.rpy", line 23, in <module>
-    $ success_physical = true
-NameError: name 'true' is not defined
-Resetting cache.
-Bootstrap to the start of init.init. took 587.43s
-Early init. took 0.00s
-Loader init. took 0.04s
-Loading error handling. took 0.03s
-Loading script. took 0.19s
-Loading save slot metadata. took 0.03s
-Loading persistent. took 0.00s
-Running init code. took 0.03s
 Loading analysis data. took 0.01s
 Analyze and compile ATL. took 0.00s
 Reloading save slot metadata. took 0.03s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\thesh\\AppData\\Roaming/RenPy/backups\\Breaking the Ice':
-Dump and make backups. took 0.07s
+Dump and make backups. took 0.05s
 Cleaning cache. took 0.00s
 Making clean stores. took 0.00s
-Initial gc. took 0.03s
+Initial gc. took 0.01s
 DPI scale factor: 1.104167
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.34s
+Creating interface object. took 0.42s
 Cleaning stores took 0.00s
 Init translation took 0.03s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
-Save screen analysis took 0.02s
+Save screen analysis took 0.01s
 Prepare screens took 0.06s
-Save pyanalysis. took 0.01s
+Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
 Performance test:
-Interface start. took 0.03s
+Interface start. took 0.16s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -354,7 +50,7 @@ Maximum texture size: 4096x4096
 Cleaning stores took 0.00s
 Init translation took 0.00s
 Build styles took 0.00s
-Load screen analysis took 0.03s
+Load screen analysis took 0.02s
 Analyze screens took 0.00s
 Prepare screens took 0.00s
 Running _start took 0.00s

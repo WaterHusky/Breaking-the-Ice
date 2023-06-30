@@ -5,7 +5,7 @@
 
 define m = Character ("Mugger", color = "#303030", image = "mug")
 define a = Character ("Airplane Announcer", color = "#ffffff" , image = "airplane announcer")
-define p = Character ("Johnny", color = "#330808" , image = "phone")
+define p = Character ("Johnny", color = "#330808" , image = "pho")
 define k = Character("Konrad", color = "#067d26" , image = "kon")
 define t = Character("Tai zhou", color = "#14234d" , image = "tai")
 

@@ -58,7 +58,7 @@ label ending:
 
     k "Hopefully. I need to catch my flight back."
 
-    t dismayed "Wait, when is it?"
+    t concerned "Wait, when is it?"
 
     k "Tomorrow morning."
 

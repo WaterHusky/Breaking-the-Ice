@@ -5,15 +5,15 @@ image side kon happy = "images/sides/k/side konrad happy.png"
 image side kon tired ="images/sides/k/side konrad tired.png"
 image side kon annoyed ="images/sides/k/side konrad annoyed.png"
 image side kon angry ="images/sides/k/side konrad angry.png"
-image side kon relaxed ="images/sides/k/side konrad crying.png"
-image side kon smiling ="images/sides/k/side konrad crying.png"
+image side kon crying ="images/sides/k/side konrad crying.png"
+image side kon relaxed ="images/sides/k/side konrad relaxed.png"
+image side kon smiling ="images/sides/k/side konrad smiling.png"
 image side kon laughing ="images/sides/k/side konrad laughing.png"
 
 image tai = "images/taizhou neutral.png"
 image side tai neutral = "images/sides/t/side taizhou neutral.png"
 image side tai fierce ="images/sides/t/side taizhou angry.png"
 image side tai concerned ="images/sides/t/side taizhou concerned.png"
-image side tai dismayed ="images/sides/t/side taizhou dismayed.png"
 image side tai smiling ="images/sides/t/side taizhou smiling.png"
 image side tai angry ="images/sides/t/side taizhou angry.png"
 image side tai tired ="images/sides/t/side taizhou tired.png"
@@ -23,8 +23,8 @@ image side tai nodding ="images/sides/t/side taizhou nodding.png"
 image side tai impressed ="images/sides/t/side taizhou impressed.png"
 image side tai laughing ="images/sides/t/side taizhou laugh.png"
 
-image phone = "images/phone neutral.png"
-image side phone loud ="images/sides/p/side phone loud.png"
+image pho = "images/phone neutral.png"
+image side pho loud ="images/sides/p/side phone loud.png"
 
 image mug = "images/mugger neutral.png"
 image side mug fierce = "images/sides/m/side mugger fierce.png"
@@ -44,6 +44,12 @@ image konrad annoyed:
     "images/sides/k/side konrad annoyed.png"
 image konrad crying:
     "images/sides/k/side konrad crying.png"
+image konrad relaxed:
+    "images/sides/k/side konrad relaxed.png"
+image konrad smiling:
+    "images/sides/k/side konrad smiling.png"
+image konrad laughing:
+    "images/sides/k/side konrad laughing.png"
 
 image taizhou:
     "images/taizhou neutral.png"
@@ -55,11 +61,25 @@ image taizhou concerned:
     "images/sides/t/side taizhou concerned.png"
 image taizhou smiling:
     "images/sides/t/side taizhou smiling.png"
+image taizhou angry:
+    "images/sides/t/side taizhou angry.png"
+image taizhou tired:
+    "images/sides/t/side taizhou tired.png"
+image taizhou sad:
+    "images/sides/t/side taizhou sad.png"
+image taizhou agreeing:
+    "images/sides/t/side taizhou agreeing.png"
+image taizhou nodding:
+    "images/sides/t/side taizhou nodding.png"
+image taizhou impressed:
+    "images/sides/t/side taizhou impressed.png"
+image taizhou laughing:
+    "images/sides/t/side taizhou laugh.png"
 
 image phone:
     "images/phone neutral.png"
-image phone loud:
-    "images/sides/p/side phone loud.png"
+image phone happy:
+    "images/sides/p/side phone happy.png"
 
 image muggger:
     "images/mugger neutral.png"
