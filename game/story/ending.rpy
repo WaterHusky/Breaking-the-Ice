@@ -12,42 +12,11 @@
 
 label ending:
 
-    $ success_physical = False
-    $ success_intellectual = False
-    $ success_emotional = False
-
-    $ stats = max_points(Physical,Intellectual,Emotional)
     # Starts on day 3 evening
 
-    # Todo: Assign conditionals based on score
-
-    #default Physical
-    #default Intellectual
-    #default Emotional
-    
-    if stats == [0]:
-        $ success_physical = True
-    elif stats == [1]:
-        $ success_intellectual = True
-    elif stats == [2]:
-        $ success_emotional = True
-    elif stats == [0,1]:
-        $ success_physical = True
-        $ success_intellectual = True
-    elif stats == [0,2]:
-        $ success_physical = True
-        $ success_emotional = True
-    elif stats == [1,2]:
-        $ success_intellectual = True
-        $ success_emotional = True
-    elif stats == [1,2,3]:
-        $ success_physical = True
-        $ success_intellectual = True
-        $ success_emotional = True
-    else:
-        $ success_physical = False
-        $ success_intellectual = False
-        $ success_emotional = False
+    $ success_physical = physical >= max_physical
+    $ success_intellectual = intellectual >= max_intellectual
+    $ success_emotional = emotional >= max_emotional
 
     scene bg cabin_inside_night
     

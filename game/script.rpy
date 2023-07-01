@@ -9,18 +9,20 @@ define p = Character ("Johnny", color = "#330808" , image = "pho")
 define k = Character("Konrad", color = "#067d26" , image = "kon")
 define t = Character("Tai zhou", color = "#14234d" , image = "tai")
 
-int python:
-    $ Physical = min(max_physical,0)
-    $ Intellectual = min(max_intellectual,0)
-    $ Emotional = min(max_emotional,0)
-    $ max_physical = 25
-    $ max_emotional = 25
-    $ max_intellectual = 25
+init python:
+    physical = 0
+    intellectual = 0
+    emotional = 0
 
-    $ prev_trait = None
-    $ combo_bonus = 2 # can be balanced
+    prev_trait = None
 
-    $ add_physical_score(score=1):
+    # These 4 values can be tweaked to balance the endings
+    max_physical = 25
+    max_intellectual = 25
+    max_emotional = 25
+    combo_bonus = 2
+
+    def add_physical_score(score=1):
         if prev_trait == 'Physical':
             Physical += score + combo_bonus
             # Todo: update trait bar and show combo sparkle
@@ -29,7 +31,7 @@ int python:
             Physical += score
             # Todo: update trait bar
             
-    $ add_emotional_score(score=1):
+    def add_emotional_score(score=1):
         if prev_trait == 'Emotional':
             Emotional += score + combo_bonus
             # Todo: update trait bar and show combo sparkle
@@ -38,7 +40,7 @@ int python:
             add_emotional += score
             # Todo: update trait bar
 
-    $ add_intellectual_score(score=1):
+    def add_intellectual_score(score=1):
         if prev_trait == 'Intellectual':
             Intellectual += score + combo_bonus
             # Todo: update trait bar and show combo sparkle
