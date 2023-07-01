@@ -22,38 +22,39 @@ init python:
     max_emotional = 25
     combo_bonus = 2
 
+    def show_combo():
+        renpy.notify('Combo!')
+
     def add_physical_score(score=1):
         global physical, prev_trait
 
-        if prev_trait == 'Physical':
+        if prev_trait == 'physical':
             physical += score + combo_bonus
-            # Todo: update trait bar and show combo sparkle
+            show_combo()
         else:
-            prev_trait = 'Physical'
+            prev_trait = 'physical'
             physical += score
-            # Todo: update trait bar
             
     def add_emotional_score(score=1):
         global emotional, prev_trait
 
-        if prev_trait == 'Emotional':
+        if prev_trait == 'emotional':
             emotional += score + combo_bonus
-            # Todo: update trait bar and show combo sparkle
+            show_combo()
         else:
-            prev_trait = 'Emotional'
+            prev_trait = 'emotional'
             emotional += score
-            # Todo: update trait bar
 
     def add_intellectual_score(score=1):
         global intellectual, prev_trait
 
-        if prev_trait == 'Intellectual':
+        if prev_trait == 'intellectual':
             intellectual += score + combo_bonus
-            # Todo: update trait bar and show combo sparkle
+            show_combo()
         else:
-            prev_trait = 'Intellectual'
+            prev_trait = 'intellectual'
             intellectual += score
-            # Todo: update trait bar
+
 
 screen physical_screen():
     frame:
