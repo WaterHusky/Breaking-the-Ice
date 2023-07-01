@@ -2,12 +2,13 @@
 # black
 # cabin_inside_day
 # cabin_inside_night
+# bedroom_night
 # snowscape
 # airport
 
 # # Characters
-# k = Konrad (tired)
-# t = Tai Zhou (neutral, concerned, smiling)
+# k = Konrad (neutral, smiling, surprised, blushing, pain)
+# t = Tai Zhou (neutral, smiling, concerned, seductive)
 
 label ending:
 
@@ -352,7 +353,7 @@ label ending_bedroom_physical:
 
     "I’m out of breath when our kiss ends."
 
-    k blush "Whoa—"
+    k blushing "Whoa—"
 
     "His hands are already on my shirt buttons, undoing them swiftly."
 
@@ -366,7 +367,7 @@ label ending_bedroom_physical:
 
     "His sculpted pecs press against mine and I can feel his warmth."
 
-    k blush "Oh!"
+    k blushing "Oh!"
 
     "He’s sporting a hard-on in his pants, but so am I."
 
@@ -396,31 +397,101 @@ label ending_bedroom_physical:
 
     "He lifts my rear up and presses the tip of his manhood against my pucker."
 
-    ""
+    "I’m ready."
 
+    t "I’ll go slow."
 
-    '''
-        - fingers stroke lips
-        - goes in for the kiss. a short one.
-        - K is breathless, but T goes in for another one, longer this time.
-        - they grope each other
-        - T gets up and unbuttons K’s shirt and takes it off.
-        - As T nuzzles against K’s neck, K takes off T’s shirt
-        - They hug, grind crotches, grope
-        - They pull off their pants
-        - Start having sex (gently)
-        - T hugs K from behind with each hump, holding close
-        - Orgasm
-        - Falls to bed, tired
+    "His tapered tip slowly enters me, spreading open my rear passage."
 
-    '''
+    "I gasp, biting my lip."
 
-    # Story
-    # todo
+    t neutral "Take deep breaths and relax"
+
+    "He edges inwards gently and I feel a pang of pain."
+
+    k pain "A—ah!"
+
+    t concerned "You alright?"
+
+    show k neutral
+
+    "I nod."
+
+    "Tai Zhou reaches over and grabs my manhood, giving it a soft squeeze."
+
+    "I let out a moan."
+
+    "He starts stroking up and down the length of my shaft, jerking me off."
+
+    "I can feel my rear muscles relax. With each pump of my cock, he slides in deeper into me."
+
+    "My eyes are closed as I gasp. The sensations are overwhelming: Tai Zhou pleasuring my cock, his manhood spreading me wide open with his girth."
+
+    k blushing "Oh god."
+
+    "He hilts the full length of his rod within me. I let out a gasp of relief. The worst is over."
+
+    "Still jerking me off, he gradually pulls out of my rear tunnel. Then he thrusts into me again."
+
+    "This time, there’s no pain. Instead, I feel an intense satisfaction as he fills me out."
+
+    t "Is this good?"
+
+    k blushing "Y—yeah."
+
+    show t seductive
+
+    "He pulls out of me before plunging back in, getting faster with each pump."
+
+    "I’m rocking my hips in time with his thrusts."
+
+    "He leans over me so his body presses against my back."
+    
+    "His free hand wraps around me in a firm embrace, groping and squeezing my pecs. His snout nuzzles against the side of my neck."
+
+    "I can smell his scent. It’s a light musk that sends my mind reeling."
+
+    "This feels good. So damn good."
+
+    "Our huffs fill the room."
+
+    "Every pump of my cock, every thrust of his hips, sends me closer to the inevitable orgasm."
+
+    "I’m close, and so is he. I can feel the involuntary clenches of his manhood within me."
+
+    t "I—I’m going to— Do you mind?"
+
+    "He can barely speak between his breaths."
+
+    k "Go for it."
+
+    "He begins jerking me off more vigourously than before. Each time he delves into me, I feel the full force of his zealous libido."
+
+    "With a few more thrusts, he goes over the edge, shooting his warm and rich load into me."
+
+    "I can feel him clenching, filling me with more and more of his seed."
+
+    k "Hngg…"
+
+    "I don’t hold back either. My primal instincts take over, and my body bucks as I spew my spunk."
+
+    "Oh god."
+
+    "That feels so good."
+
+    "Fatigued from his exertion, Tai Zhou lets his weight rest on me."
+
+    "I feel his hefty mass against my body, strong and reassuring. With each breath he takes, his chest presses against my back."
+
+    "I gently lower myself onto the bed."
+
+    "Still holding me close, Tai Zhou turns so we’re both on the bed."
+
+    "There’s no need to talk. If a picture spoke a thousand words, our act of intimacy had just spoken millions."
 
     scene bg black
 
-    "I sink into his embrace. His maleness is still inside me as I clench against his flesh."
+    "We enjoy the afterglow as I sink into his embrace. His maleness is still inside me as I clench against his flesh."
 
     "This feels good. This feels right."
 
@@ -537,12 +608,18 @@ label ending_leaving_nofollow:
 
         "Tai Zhou bows his head politely."
 
-    "With those parting words, we bid farewell. I turn to leave, thinking about the time we had together in the cabin, knowing that the impact of this unexpected encounter will stay with me."
+    "Eventually, it’s time to leave."
+
+    scene bg airport
+
+    "I soon find myself back at the airport, boarding my flight home."
 
     return
 
 label ending_leaving_follow:
     # Condition: emotional = true
+
+    scene bg airport
 
     "As the time comes for me to leave, Tai Zhou insists on accompanying me to the airport. It’s a gesture that fills me with warmth and gratitude. We walk side by side, our footsteps in sync, as we embark on this final journey together."
 
@@ -564,7 +641,9 @@ label ending_leaving_follow:
 
     k "I couldn’t agree more. Our time in the cabin has been transformative, and I want to continue this journey with you. Let’s stay connected and explore what lies ahead."
 
-    "With heartfelt promises and a shared understanding, we release our embrace. As I walk towards my departure gate, I carry with me the love and warmth we’ve cultivated in the cabin, knowing that our story is far from over."
+    "With heartfelt promises and a shared understanding, we release our embrace."
+
+    "I soon find myself boarding my flight home."
 
     return
 
@@ -576,7 +655,23 @@ label ending_reflection_best:
     # Condition: all 3 traits
     # They promise to take the time to recover, and then come back to Tai Zhou when he’s ready for a relationship
 
-    # todo
+    scene bg black
+
+    "This trip has been a time of reflection for me."
+
+    "It’s going to take a while to recover from the breakup, but I know that this is for the best."
+
+    "The flight eventually touches down, and life returns to normal."
+
+    "I keep in touch with Tai Zhou, and our friendship blossoms."
+
+    "The thought of falling in love again still hurts, but I’m in the process of healing."
+
+    "One day, I’ll be ready."
+
+    "Tai Zhou says he’ll be waiting."
+
+    "I look forward to that day."
 
     return
 
@@ -585,7 +680,23 @@ label ending_reflection_physical_emotional:
     # Condition: physical AND emotional
     # They chat after Konrad returns to his life, and Konrad looks forward to visiting again, imagining their bodies against each other
     
-    # todo
+    scene bg black
+
+    "This trip has been a time of reflection for me."
+
+    "It’s going to take a while to recover from the breakup, but I know that this is for the best."
+
+    "The flight eventually touches down, and life returns to normal."
+
+    "I keep in touch with Tai Zhou, and our friendship blossoms."
+
+    "In our conversations, he says he misses me. He misses my body."
+
+    "And if I’m honest, I feel the same way too."
+
+    "He says when I’m ever back in Atmos, he’ll be waiting for me."
+
+    "I look forward to that day."
 
     return
 
@@ -594,7 +705,21 @@ label ending_reflection_emotional:
     # Condition: emotional (intellectual is optional)
     # They become good friends
     
-    # todo
+    scene bg black
+
+    "This trip has been a time of reflection for me."
+
+    "It’s going to take a while to recover from the breakup, but I know that this is for the best."
+
+    "The flight eventually touches down, and life returns to normal."
+
+    "I keep in touch with Tai Zhou, and our friendship blossoms."
+
+    "We keep up our heart-to-heart chats online. Sometimes, I wish these conversations were in-person rather than through a webcam."
+
+    "He says when I’m ever back in Atmos, we should meet up for coffee."
+
+    "I look forward to that day."
 
     return
 
@@ -603,7 +728,25 @@ label ending_reflection_physical_intellectual:
     # Condition: physical, intellectual, or both
     # They chat for a while, but it trails off, and life goes on 
     
-    # todo
+    scene bg black
+
+    "This trip has been a time of reflection for me."
+
+    "It’s going to take a while to recover from the breakup, but I know that this is for the best."
+
+    "The flight eventually touches down, and life returns to normal."
+
+    "I keep in touch with Tai Zhou, and our friendship blossoms."
+
+    "In our conversations, he says he misses me. He misses my body."
+
+    "And if I’m honest, I feel the same way too."
+
+    "But the lack of face-to-face conversations isn’t good for friendships."
+
+    "Our conversations get less and less frequent, until they eventually stop."
+
+    "And life goes on."
 
     return
 
@@ -612,7 +755,29 @@ label ending_reflection_bad:
     # Condition: all traits failed
     # Konrad moves on and eventually forgets about Tai Zhou
    
-    # todo
+    scene bg black
+
+    "This trip has been a time of reflection for me."
+
+    "It’s going to take a while to recover from the breakup, but I know that this is for the best."
+
+    "The flight eventually touches down, and life returns to normal."
+
+    "Tai Zhou passed me his contact, and I’m supposed to message him online."
+
+    "But I’m just coming back from a holiday trip and a breakup, and now I’m thrown back into work."
+
+    "I need some time to recover."
+
+    "Days turn into weeks. Weeks turn into months."
+
+    "Eventually, I realise that it’ll be awkward reaching out to him."
+
+    "Will he even remember me?"
+
+    "Even if I want to reach out to him, I can’t recall what his online handle is anymore."
+
+    "So life goes on, and Tai Zhou becomes a distant memory that fades in time."
 
     return
 
