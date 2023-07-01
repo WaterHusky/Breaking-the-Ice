@@ -58,20 +58,20 @@ init python:
 
 screen physical_screen():
     frame:
-        xoffset -1730
+        xoffset -1720
         align(1.0, 0.0)
-        text "Physical: [physical]"
+        text "Physical: [physical] "
 
 screen intellectual_screen():
     frame:
         xoffset -860
         align(1.0, 0.0)
-        text "Intellectual: [intellectual]"
+        text "Intellectual: [intellectual] "
 
 screen emotional_screen():
     frame:
         align(1.0, 0.0)
-        text "Emotional: [emotional]"
+        text "Emotional: [emotional] "
 
 
 # The game starts here.
