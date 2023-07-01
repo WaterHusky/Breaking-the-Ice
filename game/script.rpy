@@ -23,6 +23,8 @@ init python:
     combo_bonus = 2
 
     def add_physical_score(score=1):
+        nonlocal physical, prev_trait
+
         if prev_trait == 'Physical':
             physical += score + combo_bonus
             # Todo: update trait bar and show combo sparkle
@@ -32,6 +34,8 @@ init python:
             # Todo: update trait bar
             
     def add_emotional_score(score=1):
+        nonlocal emotional, prev_trait
+
         if prev_trait == 'Emotional':
             emotional += score + combo_bonus
             # Todo: update trait bar and show combo sparkle
@@ -41,6 +45,8 @@ init python:
             # Todo: update trait bar
 
     def add_intellectual_score(score=1):
+        nonlocal intellectual, prev_trait
+
         if prev_trait == 'Intellectual':
             intellectual += score + combo_bonus
             # Todo: update trait bar and show combo sparkle
