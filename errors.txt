@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/story/day2night.rpy", line 117: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
-    "Keep going."
-                 ^
+File "game/script.rpy", line 26: no binding for nonlocal 'physical' found
+        nonlocal emotional, prev_trait
+         ^
 
 Ren'Py Version: Ren'Py 8.1.1.23060707
-Wed Jun 28 11:28:10 2023
+Sat Jul  1 10:35:09 2023

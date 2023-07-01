@@ -23,7 +23,7 @@ init python:
     combo_bonus = 2
 
     def add_physical_score(score=1):
-        nonlocal physical, prev_trait
+        global physical, prev_trait
 
         if prev_trait == 'Physical':
             physical += score + combo_bonus
@@ -34,7 +34,7 @@ init python:
             # Todo: update trait bar
             
     def add_emotional_score(score=1):
-        nonlocal emotional, prev_trait
+        global emotional, prev_trait
 
         if prev_trait == 'Emotional':
             emotional += score + combo_bonus
@@ -45,7 +45,7 @@ init python:
             # Todo: update trait bar
 
     def add_intellectual_score(score=1):
-        nonlocal intellectual, prev_trait
+        global intellectual, prev_trait
 
         if prev_trait == 'Intellectual':
             intellectual += score + combo_bonus
