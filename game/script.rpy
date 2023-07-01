@@ -24,47 +24,47 @@ init python:
 
     def add_physical_score(score=1):
         if prev_trait == 'Physical':
-            Physical += score + combo_bonus
+            physical += score + combo_bonus
             # Todo: update trait bar and show combo sparkle
         else:
             prev_trait = 'Physical'
-            Physical += score
+            physical += score
             # Todo: update trait bar
             
     def add_emotional_score(score=1):
         if prev_trait == 'Emotional':
-            Emotional += score + combo_bonus
+            emotional += score + combo_bonus
             # Todo: update trait bar and show combo sparkle
         else:
             prev_trait = 'Emotional'
-            add_emotional += score
+            emotional += score
             # Todo: update trait bar
 
     def add_intellectual_score(score=1):
         if prev_trait == 'Intellectual':
-            Intellectual += score + combo_bonus
+            intellectual += score + combo_bonus
             # Todo: update trait bar and show combo sparkle
         else:
             prev_trait = 'Intellectual'
-            Intellectual += score
+            intellectual += score
             # Todo: update trait bar
 
 screen physical_screen():
     frame:
         xoffset -1730
         align(1.0, 0.0)
-        text "Physical: [Physical]"
+        text "Physical: [physical]"
 
 screen intellectual_screen():
     frame:
         xoffset -860
         align(1.0, 0.0)
-        text "Intellectual: [Intellectual]"
+        text "Intellectual: [intellectual]"
 
 screen emotional_screen():
     frame:
         align(1.0, 0.0)
-        text "Emotional: [Emotional]"
+        text "Emotional: [emotional]"
 
 
 # The game starts here.
