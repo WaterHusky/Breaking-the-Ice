@@ -140,7 +140,7 @@ label mugging:
 
     t "Yeah, you don’t want to be on the streets at night. Loads of shady characters around."
 
-    "..."
+    "…"
 
     "He looks at me with a concerned expression."
 
@@ -156,11 +156,11 @@ label mugging:
 
     "And I’m still tired, still hungry."
 
-    k crying "I’m... I’m not okay."
+    k crying "I’m… I’m not okay."
 
     "I shake my head."
 
-    k "I just... Johnny... my boyfriend... broke up... phone..."
+    k "I just… Johnny… my boyfriend… broke up… phone…"
 
     "The thoughts in my head are like a swarm of bees, filling my skull with a chaotic mess of incessant buzzing."
 
