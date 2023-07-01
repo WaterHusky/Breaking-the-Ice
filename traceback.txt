@@ -1,36 +1,30 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/story/touchdown.rpy", line 136, in script
-    p happy "“Sorry about that.”"
-Exception: Image 'phone' does not accept attributes 'happy'.
+  File "game/story/day1morning.rpy", line 54, in script
+    $ add_intellectual_score(1)
+  File "game/story/day1morning.rpy", line 54, in <module>
+    $ add_intellectual_score(1)
+  File "game/script.rpy", line 44, in add_intellectual_score
+    if prev_trait == 'Intellectual':
+UnboundLocalError: local variable 'prev_trait' referenced before assignment
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/story/touchdown.rpy", line 136, in script
-    p happy "“Sorry about that.”"
-  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\ast.py", line 930, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\exports.py", line 1473, in say
-    who(what, *args, **kwargs)
-  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\character.py", line 1290, in __call__
-    old_attr_state = self.handle_say_attributes(False, interact)
-  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\character.py", line 1109, in handle_say_attributes
-    if self.resolve_say_attributes(predicting, attrs):
-  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\character.py", line 1065, in resolve_say_attributes
-    renpy.exports.show(show_image)
-  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\exports.py", line 733, in show
-    if not base.find_target() and renpy.config.missing_show:
-  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\display\image.py", line 421, in find_target
-    self.target = target._duplicate(a)
-  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\display\transform.py", line 1043, in _duplicate
-    args.extraneous()
-  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\display\core.py", line 359, in extraneous
-    raise Exception("Image '{}' does not accept attributes '{}'.".format(
-Exception: Image 'phone' does not accept attributes 'happy'.
+  File "game/story/day1morning.rpy", line 54, in script
+    $ add_intellectual_score(1)
+  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\ast.py", line 1138, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\python.py", line 1122, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/story/day1morning.rpy", line 54, in <module>
+    $ add_intellectual_score(1)
+  File "game/script.rpy", line 44, in add_intellectual_score
+    if prev_trait == 'Intellectual':
+UnboundLocalError: local variable 'prev_trait' referenced before assignment
 
 Windows-10-10.0.22621 AMD64
 Ren'Py 8.1.1.23060707
 Breaking the Ice 1.0
-Thu Jun 29 23:55:55 2023
+Sat Jul  1 10:29:26 2023

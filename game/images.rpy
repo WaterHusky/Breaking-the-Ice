@@ -23,8 +23,8 @@ image side tai tired ="images/sides/t/side taizhou tired.png"
 image side tai sad ="images/sides/t/side taizhou sad.png"
 image side tai agreeing ="images/sides/t/side taizhou agreeing.png"
 image side tai nodding ="images/sides/t/side taizhou agreeing.png"
-image side tai impressed ="images/sides/t/side taizhou laugh.png"
-image side tai laughing ="images/sides/t/side taizhou laugh.png"
+image side tai impressed ="images/sides/t/side taizhou laughing.png"
+image side tai laughing ="images/sides/t/side taizhou laughing.png"
 image side tai seductive ="images/sides/t/side taizhou smiling.png"
 
 image pho = "images/phone neutral.png"
@@ -82,9 +82,9 @@ image taizhou agreeing:
 image taizhou nodding:
     "images/sides/t/side taizhou nodding.png"
 image taizhou impressed:
-    "images/sides/t/side taizhou laugh.png"
+    "images/sides/t/side taizhou laughing.png"
 image taizhou laughing:
-    "images/sides/t/side taizhou laugh.png"
+    "images/sides/t/side taizhou laughing.png"
 image taizhou seductive:
     "images/sides/t/side taizhou smiling.png"
 
