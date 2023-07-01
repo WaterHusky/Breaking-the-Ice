@@ -67,7 +67,7 @@ label cabinAfternoon2:
 
     menu:
         "Captivated by You":
-            $ Emotional += 1
+            $ add_emotional_score(1)
 
             "A sweet, romantic melody starts playing in Tai Zhou’s ears. The delicate harmonies and gentle rhythm evoke a sense of longing and tenderness."
 
@@ -86,7 +86,7 @@ label cabinAfternoon2:
             "I hide a blush."
 
         "Concerto of Celestial Colors":
-            $ Intellectual += 1
+            $ add_intellectual_score(1)
 
             "A complex orchestral arrangement starts playing in Tai Zhou’s ears. The grandeur of the orchestral sound, the interplay of different instruments, and the ever-changing dynamics create a vivid musical tapestry."
 
@@ -127,7 +127,7 @@ label cabinAfternoon2:
 
     menu:
         "But you have other skills!":
-            $ Intellectual += 1
+            $ add_intellectual_score(1)
 
             k neutral "Aww, I understand. Sometimes circumstances make it challenging to pursue certain paths."
         
@@ -140,7 +140,7 @@ label cabinAfternoon2:
             t smiling "I never really thought about it that way."
 
         "I’m sure they’ll be proud of you.":
-            $ Emotional += 1
+            $ add_emotional_score(1)
             k neutral "It’s okay, I’m sure you did the right thing. Your family will be proud of you, won’t they?"
 
             t smiling "Thanks. And yeah, they are."

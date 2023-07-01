@@ -32,7 +32,7 @@ label cabinNight:
 
     menu:
         "Doesn’t it get lonely?":
-            $ Emotional += 1
+            $ add_emotional_score(1)
             k neutral "Doesn’t it get lonely up here?"
             t neutral "Well, sometimes. But I make do. The people in the city don’t really trust me, especially since I moved in from Asia. You were very lucky that I was in town last night."
             k neutral "Aww… I’m sorry to hear that."
@@ -47,7 +47,7 @@ label cabinNight:
             t smiling "I’m glad too, Konrad."
 
         "A life of solitude, I get it.":
-            $ Intellectual += 1
+            $ add_intellectual_score(1)
             k neutral "I can respect that. Sometimes a simple life is all you need, right?"
             t smiling "Yes. "
             k neutral "I understand. Life has its ups and downs. Sometimes we need to take a step back and focus on ourselves."
@@ -94,7 +94,7 @@ label cabinNight:
 
     menu:
         "Hug him":
-            $ Physical += 1
+            $ add_physical_score(1)
 
             "Before I knew it, I had leaned forward and hugged him in an embrace. Tai Zhou seems startled, but lets it happen."
 
@@ -105,7 +105,7 @@ label cabinNight:
             "I backed off, blushing slightly and flush with embarrassment."
 
         "Sympathize with him":
-            $ Emotional += 1
+            $ add_emotional_score(1)
 
             k neutral "I’m really sorry to hear about your parents, Tai Zhou. Losing loved ones can be incredibly difficult."
 

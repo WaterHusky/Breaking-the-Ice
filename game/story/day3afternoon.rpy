@@ -22,7 +22,7 @@ label cabinAfternoon3:
 
     menu:
         "Join him":
-            $ Physical += 1
+            $ add_physical_score(1)
 
             "I set my book aside and made my way to the couch. Carefully, so as not to disturb him, I eased myself onto the other end of the couch, just next to his legs. I could see his chest slowly rise and fall, in time with his gentle snores."
 
@@ -31,7 +31,7 @@ label cabinAfternoon3:
             t neutral "… Konrad?"
 
         "Keep your distance respectfully":
-            $ Intellectual += 1
+            $ add_intellectual_score(1)
             
             "Deciding not to disturb him, I head back into my room to give him some privacy."
 
@@ -62,7 +62,7 @@ label cabinAfternoon3:
 
     menu:
         "It’s okay, I’d rather read.":
-            $ Intellectual += 1
+            $ add_intellectual_score(1)
 
             k neutral "It’s alright. I’m more than happy just to enjoy reading my book. I appreciate just having your company though."
 
@@ -71,7 +71,7 @@ label cabinAfternoon3:
             "I carried on with my reading, while Tai Zhou stared into space. The room filled with a comfortable silence as we each indulged in our own relaxation."
 
         "Slide under the covers with him.":
-            $ Physical += 1
+            $ add_physical_score(1)
 
             "I moved towards him and gently lifted up the covers, adjusting the blanket to cover both of us. The warmth from the fireplace enveloped us, creating a cozy cocoon."
 
@@ -96,7 +96,7 @@ label cabinAfternoon3:
 
     menu:
         "He should be physically and emotionally compatible, and share my goals and aspirations.":
-            $ Intellectual += 2
+            $ add_intellectual_score(2)
 
             k smiling "I think it’s important for a partner to be someone I can connect with on both physical and emotional levels."
             
@@ -109,7 +109,7 @@ label cabinAfternoon3:
             t smiling "I agree, it’s important to have that connection on an intellectual level."
             
         "He should be my best friend and be there for me when I need him most.":
-            $ Emotional += 2
+            $ add_emotional_score(2)
 
             k smiling "For me, a partner should be my best friend."
             
@@ -122,7 +122,7 @@ label cabinAfternoon3:
             t smiling "I agree. Friendship is important in any partnership."
 
         "He should be rugged, strong, and take good care of me.":
-            $ Physical += 2
+            $ add_physical_score(2)
 
             k smiling "Well, physical attraction is definitely important to me."
             

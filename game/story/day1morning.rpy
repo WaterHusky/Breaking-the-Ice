@@ -51,7 +51,7 @@ label cabinMorning:
             t neutral "No, but good guess. It’s called pí dàn. I’m not sure what it’s called in english but it’s quite common to eat with pork porridge."
 
         "Is this century egg?": 
-            $ Intellectual += 1
+            $ add_intellectual_score(1)
             t smiling "Yes! You’ve heard of it?” He seems impressed."
             k neutral "Well, I’ve seen it in pictures… But I’ve never tried it."
 
@@ -59,12 +59,12 @@ label cabinMorning:
 
     menu:
         "I’ll try anything once!":
-            $ Physical += 1
+            $ add_physical_score(1)
             "I cautiously place the spoon into my mouth. As I bite down into the strange gelatin, immediately a strange sensation spreads across my tongue and I can’t help but make a face."
 
             menu:
                 "Urk, I can do this…":
-                    $ Emotional += 1
+                    $ add_emotional_score(1)
                     "I bite down with my jaw and choke it down. It leaves a strange aftertaste, which I quickly wash away with a drink of coffee."
                     "That tastes… interesting…."
                     t smiling "Tai Zhou laughs, clearly noticing my discomfort."

@@ -64,7 +64,7 @@ label cabinNight2:
 
                     jump scene_end
 
-    $ Physical += 1
+    $ add_physical_score(1)
 
     "I quickly strip down and join Tai Zhou in the warm, inviting waters of the hot tub. The tension from the awkward bathroom encounter dissipates as we settle into the relaxing embrace of the hot water."
 
@@ -76,7 +76,7 @@ label cabinNight2:
 
     menu:
         "Let’s talk.":
-            $ Intellectual += 1
+            $ add_intellectual_score(1)
 
             k neutral "Tai Zhou, you’ve mentioned your family before, but I don’t know much about them. What were they like?"
 
@@ -95,7 +95,7 @@ label cabinNight2:
             t smiling "Thank you, Konrad. Your kind words mean a lot to me."
 
         "Let’s skip the chatter ;)":
-            $ Physical += 1
+            $ add_physical_score(1)
 
             "I found my body slowly inching towards where he sat. Before I knew it, my shoulders were brushing up against his."
 
@@ -112,7 +112,7 @@ label cabinNight2:
                     t neutral "It’s okay."
 
                 "Keep going.":
-                    $ Physical += 1
+                    $ add_physical_score(1)
 
                     "I turned towards him, and began softly brushing the tip of my snout against his neck."
 
@@ -125,7 +125,7 @@ label cabinNight2:
                     show bg black with dissolve
             
         "Let’s just enjoy the moment.":
-            $ Emotional += 1
+            $ add_emotional_score(1)
             "The air fills with a comfortable silence as we continue to enjoy the serene ambience. The warm water envelops us, washing away any lingering worries or stress."
 
             k neutral "You know, Tai Zhou, spending time with you has made this snowstorm more bearable. I’m grateful for your company."

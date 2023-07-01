@@ -15,6 +15,8 @@ label ending:
     $ success_physical = False
     $ success_intellectual = False
     $ success_emotional = False
+
+    $ stats = max_points(Physical,Intellectual,Emotional)
     # Starts on day 3 evening
 
     # Todo: Assign conditionals based on score
@@ -23,22 +25,22 @@ label ending:
     #default Intellectual
     #default Emotional
     
-    if Physical > max(Intellectual, Emotional):
+    if stats == [0]:
         $ success_physical = True
-    elif Intellectual > max(Physical, Emotional):
+    elif stats == [1]:
         $ success_intellectual = True
-    elif Emotional > max(Physical, Intellectual):
+    elif stats == [2]:
         $ success_emotional = True
-    elif Physical == Intellectual:
+    elif stats == [0,1]:
         $ success_physical = True
         $ success_intellectual = True
-    elif Physical == Emotional:
+    elif stats == [0,2]:
         $ success_physical = True
         $ success_emotional = True
-    elif Intellectual == Emotional:
+    elif stats == [1,2]:
         $ success_intellectual = True
         $ success_emotional = True
-    elif Physical == Intellectual == Emotional:
+    elif stats == [1,2,3]:
         $ success_physical = True
         $ success_intellectual = True
         $ success_emotional = True
@@ -154,10 +156,10 @@ label ending_reflection:
     elif success_physical and success_emotional:
         # if physical+emotional, they chat after Konrad returns to his life, and Konrad looks forward to visiting again, imagining their bodies against each other
         call ending_reflection_physical_emotional
-    elif  (success_intellectual and success_emotional) or (success_emotional):
+    elif  success_intellectual and success_emotional:
         # if intellectual+emotional or emotional, they become good friends
         call ending_reflection_emotional
-    elif (success_physical and success_intellectual) or success_physical or success_intellectual:
+    elif success_physical and success_intellectual:
         # if physical+intellectual or physical or intellectual, they chat for a while, but it trails off, and life goes on  
         call ending_reflection_physical_intellectual
     else:

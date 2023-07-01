@@ -50,7 +50,7 @@ label cabinAfternoon:
 
     menu:
         "Could you show me how it’s done?":
-            $ Physical += 1
+            $ add_physical_score(1)
             t smiling "Here, let me help."
             
             "Tai Zhou steps over behind me and grips both of my wrists with his hands. While his strong grip was firm like a pair of cuffs, his fur was soft and I couldn’t help but blush as I felt it brush against the length of my arms."
@@ -65,7 +65,7 @@ label cabinAfternoon:
 
             menu:
                 "I can’t help it…":
-                    $ Emotional += 1
+                    $ add_emotional_score(1)
 
                     k smiling "Sorry, it’s just that… I’m not used to being this close to someone."
                     
@@ -108,7 +108,7 @@ label cabinAfternoon:
 
     menu:
         "Because it helps you be mindful?":
-            $ Intellectual += 1
+            $ add_intellectual_score(1)
 
             k neutral "Well from what I know, Tai chi is a style of martial arts meant to promote relaxation and mindfulness. Meditation in motion, as they say. Kind of like yoga."
 
@@ -122,7 +122,7 @@ label cabinAfternoon:
             t smiling "Maybe. I get more than enough exercise outside though. Plenty to do around up here in the mountains."
 
         "To develop your physique?":
-            $ Physical += 1
+            $ add_physical_score(1)
 
             k smiling "Building a nice body? You look like you work out a lot. Your muscles are huge."
 

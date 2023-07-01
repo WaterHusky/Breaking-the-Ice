@@ -102,7 +102,7 @@ label cabinMorning2:
 
             "I dropped the pile on the floor and rushed back into the garage."
         "Get you something to drink?":
-            $ Emotional += 1
+            $ add_emotional_score(1)
 
             "Since I can’t help with chopping wood, I turn my attention to Tai Zhou’s well-being."
 
@@ -118,7 +118,7 @@ label cabinMorning2:
 
             "I dropped the pile on the floor and rushed back into the garage."
         "Offer moral support?":
-            $ Emotional += 1
+            $ add_emotional_score(1)
 
             "Even though I can’t physically assist with the chopping, I can still offer my moral support."
 
@@ -137,7 +137,7 @@ label cabinMorning2:
             t angry "Ow!"
 
         "Get you a towel?":
-            $ Physical += 1
+            $ add_physical_score(1)
 
             "As I notice Tai Zhou working up a sweat, I want to make sure he’s comfortable."
 
@@ -165,7 +165,7 @@ label cabinMorning2:
 
     menu:
         "First aid!":
-            $ Physical += 1
+            $ add_physical_score(1)
 
             k neutral "Let me see…"
 
@@ -194,7 +194,7 @@ label cabinMorning2:
             k smiling "You’re welcome."
 
         "Maybe it’s time for a break?":
-            $ Emotional += 1
+            $ add_emotional_score(1)
 
             k smiling "You’ve been working hard, Tai Zhou. It might be a good idea to take a break and give yourself a chance to recover."
 

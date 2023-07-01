@@ -86,7 +86,7 @@ label cabinMorning3:
 
     menu:
         "It was my fault":
-            $ Emotional += 1
+            $ add_emotional_score(1)
             k neutral "It was my fault, really. I let my insecurities and doubts get the best of me. I couldn’t fully trust Johnny, even though he had given me no reason to doubt him."
             
             k neutral "I pushed him away, questioning his every move, and it eventually became too much for him to handle."
@@ -105,7 +105,7 @@ label cabinMorning3:
             t neutral "Well, relationships can be quite tricky, I agree."
 
         "It was mutual":
-            $ Intellectual += 1
+            $ add_intellectual_score(1)
             k neutral "Looking back, I think it was both our faults. We both had our own issues and insecurities that we couldn’t fully address or overcome together."
             
             k neutral "We lacked effective communication and understanding. It became a toxic cycle of miscommunication and blame, and in the end, we couldn’t salvage what we once had."
@@ -148,7 +148,7 @@ label cabinMorning3:
 
     menu:
         "Priorities, am I right?":
-            $ Intellectual += 1
+            $ add_intellectual_score(1)
             k neutral "I see. It sounds like you’ve prioritized other aspects of your life."
 
             t neutral "Yes, exactly. I have goals and aspirations."
@@ -168,7 +168,7 @@ label cabinMorning3:
             k smiling "I feel the same way, Tai Zhou. Sometimes unexpected circumstances bring people together in the most beautiful ways."
         
         "Are you looking for one right now?":
-            $ Physical += 1
+            $ add_physical_score(1)
             k neutral "Are you open to the idea of being in a relationship now?"
 
             t neutral "Well, I’ve never actively looked for one. If the right person comes along, I’m willing to explore it."
