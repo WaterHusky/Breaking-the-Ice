@@ -439,9 +439,7 @@ label ending_bedroom_physical:
 
     k blushing "Y—yeah."
 
-    show t seductive
-
-    "He pulls out of me before plunging back in, getting faster with each pump."
+    t seductive "He pulls out of me before plunging back in, getting faster with each pump."
 
     "I’m rocking my hips in time with his thrusts."
 

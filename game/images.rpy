@@ -9,6 +9,9 @@ image side kon crying ="images/sides/k/side konrad crying.png"
 image side kon relaxed ="images/sides/k/side konrad happy.png"
 image side kon smiling ="images/sides/k/side konrad happy.png"
 image side kon laughing ="images/sides/k/side konrad laughing.png"
+image side kon surprised ="images/sides/k/side konrad happy.png"
+image side kon blushing ="images/sides/k/side konrad happy.png"
+image side kon pain ="images/sides/k/side konrad crying.png"
 
 image tai = "images/taizhou neutral.png"
 image side tai neutral = "images/sides/t/side taizhou neutral.png"
@@ -22,6 +25,7 @@ image side tai agreeing ="images/sides/t/side taizhou agreeing.png"
 image side tai nodding ="images/sides/t/side taizhou agreeing.png"
 image side tai impressed ="images/sides/t/side taizhou laugh.png"
 image side tai laughing ="images/sides/t/side taizhou laugh.png"
+image side tai seductive ="images/sides/t/side taizhou smiling.png"
 
 image pho = "images/phone neutral.png"
 image side pho loud ="images/sides/p/side phone loud.png"
@@ -47,9 +51,15 @@ image konrad crying:
 image konrad relaxed:
     "images/sides/k/side konrad relaxed.png"
 image konrad smiling:
-    "images/sides/k/side konrad smiling.png"
+    "images/sides/k/side konrad happy.png"
 image konrad laughing:
     "images/sides/k/side konrad laughing.png"
+image konrad surprised:
+    "images/sides/k/side konrad happy.png"
+image konrad blushing:
+    "images/sides/k/side konrad happy.png"
+image konrad pain:
+    "images/sides/k/side konrad crying.png"
 
 image taizhou:
     "images/taizhou neutral.png"
@@ -75,6 +85,8 @@ image taizhou impressed:
     "images/sides/t/side taizhou laugh.png"
 image taizhou laughing:
     "images/sides/t/side taizhou laugh.png"
+image taizhou seductive:
+    "images/sides/t/side taizhou smiling.png"
 
 image phone:
     "images/phone neutral.png"
@@ -98,4 +110,5 @@ image bg cabin_inside_night = ("bg_cabin_inside_night.jpg")
 image bg cabin_outside_day = ("bg_cabin_outside_day.jpg")
 image bg cabin_inside_day = ("bg_cabin_inside_day.jpg")
 image bg snowscape = ("bg_snowscape.jpg")
+image bg bedroom_night = ("bg_bedroom_night.jpg")
 image bg black = ("bg_black.jpg")
