@@ -3,7 +3,7 @@ image kon = "images/konrad neutral.png"
 image side kon neutral = "images/sides/k/side konrad neutral.png"
 image side kon happy = "images/sides/k/side konrad happy.png"
 image side kon tired ="images/sides/k/side konrad tired.png"
-image side kon annoyed ="images/sides/k/side konrad annoyed.png"
+image side kon annoyed ="images/sides/k/side konrad angry.png"
 image side kon angry ="images/sides/k/side konrad angry.png"
 image side kon crying ="images/sides/k/side konrad crying.png"
 image side kon relaxed ="images/sides/k/side konrad happy.png"
@@ -45,11 +45,11 @@ image konrad tired:
 image konrad angry:
     "images/sides/k/side konrad angry.png"
 image konrad annoyed:
-    "images/sides/k/side konrad annoyed.png"
+    "images/sides/k/side konrad angry.png"
 image konrad crying:
     "images/sides/k/side konrad crying.png"
 image konrad relaxed:
-    "images/sides/k/side konrad relaxed.png"
+    "images/sides/k/side konrad happy.png"
 image konrad smiling:
     "images/sides/k/side konrad happy.png"
 image konrad laughing:
