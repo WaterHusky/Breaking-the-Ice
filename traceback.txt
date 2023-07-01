@@ -27,4 +27,8 @@ UnboundLocalError: local variable 'prev_trait' referenced before assignment
 Windows-10-10.0.22621 AMD64
 Ren'Py 8.1.1.23060707
 Breaking the Ice 1.0
+<<<<<<< HEAD
 Sat Jul  1 10:30:56 2023
+=======
+Sat Jul  1 10:29:26 2023
+>>>>>>> main
