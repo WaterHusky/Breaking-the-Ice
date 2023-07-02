@@ -161,7 +161,7 @@ label cabinMorning3:
 
             k neutral "I can respect that. Love will always naturally come later."
         "Well, when it happens, it happens.":
-            $ Emotional += 1
+            $ add_emotional_score(1)
 
             k neutral "I see. Well I don’t go out of my way to look for relationships either, but it can be a tricky thing, especially when it comes to relationships. Sometimes the universe has its own plans for us."
 
