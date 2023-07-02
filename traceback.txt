@@ -1,34 +1,40 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/story/day1morning.rpy", line 54, in script
-    $ add_intellectual_score(1)
-  File "game/story/day1morning.rpy", line 54, in <module>
-    $ add_intellectual_score(1)
-  File "game/script.rpy", line 44, in add_intellectual_score
-    if prev_trait == 'Intellectual':
-UnboundLocalError: local variable 'prev_trait' referenced before assignment
+  File "game/story/day1morning.rpy", line 13, in script
+    play music bells noloop fadein 0.5
+  File "renpy/common/000statements.rpy", line 123, in execute_play_music
+    renpy.music.play(_audio_eval(p["file"]),
+  File "renpy/common/000statements.rpy", line 32, in _audio_eval
+    return eval(expr, locals=store.audio.__dict__)
+  File "game/story/day1morning.rpy", line 13, in <module>
+    play music bells noloop fadein 0.5
+NameError: name 'bells' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/story/day1morning.rpy", line 54, in script
-    $ add_intellectual_score(1)
-  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\ast.py", line 1138, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\python.py", line 1122, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/story/day1morning.rpy", line 54, in <module>
-    $ add_intellectual_score(1)
-  File "game/script.rpy", line 44, in add_intellectual_score
-    if prev_trait == 'Intellectual':
-UnboundLocalError: local variable 'prev_trait' referenced before assignment
+  File "game/story/day1morning.rpy", line 13, in script
+    play music bells noloop fadein 0.5
+  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\ast.py", line 2259, in execute
+    self.call("execute")
+  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\ast.py", line 2241, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\statements.py", line 342, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 123, in execute_play_music
+    renpy.music.play(_audio_eval(p["file"]),
+  File "renpy/common/000statements.rpy", line 32, in _audio_eval
+    return eval(expr, locals=store.audio.__dict__)
+  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\python.py", line 1153, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\thesh\Desktop\renpy-8.0.3-sdk\renpy\python.py", line 1146, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/story/day1morning.rpy", line 13, in <module>
+    play music bells noloop fadein 0.5
+NameError: name 'bells' is not defined
 
 Windows-10-10.0.22621 AMD64
 Ren'Py 8.1.1.23060707
 Breaking the Ice 1.0
-<<<<<<< HEAD
-Sat Jul  1 10:30:56 2023
-=======
-Sat Jul  1 10:29:26 2023
->>>>>>> main
+Sun Jul  2 08:24:56 2023

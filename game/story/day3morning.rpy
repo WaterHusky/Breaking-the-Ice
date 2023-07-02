@@ -9,6 +9,8 @@
 label cabinMorning3:
 
     scene bg cabin_inside_day
+
+    play music stringflute noloop fadein 0.5
     
     "It’s another day in the cabin. The worst of the storm seems to have subsided, from what I could hear. Still, I couldn’t see the outside, since the cabin was still snowed in. Hopefully everything would melt by tomorrow."
     

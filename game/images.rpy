@@ -80,7 +80,7 @@ image taizhou sad:
 image taizhou agreeing:
     "images/sides/t/side taizhou agreeing.png"
 image taizhou nodding:
-    "images/sides/t/side taizhou nodding.png"
+    "images/sides/t/side taizhou agreeing.png"
 image taizhou impressed:
     "images/sides/t/side taizhou laughing.png"
 image taizhou laughing:

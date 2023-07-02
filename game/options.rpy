@@ -12,7 +12,7 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
-define config.name = _("Breaking the Ice")
+define config.name = _("Springing Back")
 
 
 ## Determines if the title given above is shown on the main menu screen. Set
@@ -37,7 +37,7 @@ define gui.about = _p("""
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
-define build.name = "BreakingtheIce"
+define build.name = "SpringingBack"
 
 
 ## Sounds and music ############################################################
@@ -62,7 +62,13 @@ define config.has_voice = True
 ## the player is at the main menu. This file will continue playing into the
 ## game, until it is stopped or another file is played.
 
-# define config.main_menu_music = "main-menu-theme.ogg"
+define config.main_menu_music = "vn_piano_final_-_Main_menu.ogg"
+
+### Volume of audio in game
+
+define config.default_sfx_volume = 0.7
+define config.default_music_volume = 0.7
+define config.default_voice_volume = 0.7
 
 
 ## Transitions #################################################################

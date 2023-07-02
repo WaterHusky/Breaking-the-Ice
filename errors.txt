@@ -2,9 +2,21 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 26: no binding for nonlocal 'physical' found
-        nonlocal emotional, prev_trait
-         ^
+File "game/story/day1night.rpy", line 13: expected end of line
+    play music bells no loop fade in 0.5
+                     ^
+
+File "game/story/day2night.rpy", line 13: expected end of line
+    play music brass no loop fade in 0.5
+                     ^
+
+File "game/story/day3afternoon.rpy", line 13: expected end of line
+    play music stringflute no loop fade in 0.5
+                           ^
+
+File "game/story/ending.rpy", line 23: expected end of line
+    play music final no loop fade in 0.5
+                     ^
 
 Ren'Py Version: Ren'Py 8.1.1.23060707
-Sat Jul  1 10:35:09 2023
+Sun Jul  2 08:18:43 2023

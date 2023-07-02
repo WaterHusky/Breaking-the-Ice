@@ -9,6 +9,8 @@
 label cabinMorning2:
 
     scene bg cabin_inside_day
+
+    play music brass noloop fadein 0.5
     
     "I wake up the next day, feeling refreshed from a restful sleep. The morning light filters through the cabin windows, casting a gentle glow on the surroundings. Stretching my limbs, I sit up in bed and reach for my phone on the bedside table."
 

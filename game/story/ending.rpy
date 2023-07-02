@@ -19,6 +19,8 @@ label ending:
     $ success_emotional = emotional >= max_emotional
 
     scene bg cabin_inside_night
+
+    play music final noloop fadein 0.5
     
     "It’s getting late."
 
@@ -46,17 +48,17 @@ label ending:
 label ending_evening:
     if success_emotional:
         # They have a heart-to-heart talk about where their friendship is going to go
-        call ending_evening_emotional
+        call ending_evening_emotional from _call_ending_evening_emotional
     elif success_intellectual:
         # They have a talk about life and the philosophy of goodbyes
-        call ending_evening_intellectual
+        call ending_evening_intellectual from _call_ending_evening_intellectual
     elif success_physical:
         # Instead of chatting, Tai Zhou eases them straight into the bedroom scene
-        call ending_evening_physical
+        call ending_evening_physical from _call_ending_evening_physical
         pass
     else:
         # They have an awkard evening together
-        call ending_evening_bad
+        call ending_evening_bad from _call_ending_evening_bad
     
     jump ending_bedroom
 
@@ -64,10 +66,10 @@ label ending_evening:
 label ending_bedroom:
     if success_physical:
         # They get physical in the bedroom
-        call ending_bedroom_physical
+        call ending_bedroom_physical from _call_ending_bedroom_physical
     else:
         # They go to their own bedrooms and fall asleep
-        call ending_bedroom_bad
+        call ending_bedroom_bad from _call_ending_bedroom_bad
     
     jump ending_leaving
 
@@ -106,14 +108,16 @@ label ending_leaving:
 
     "I smile back, feeling a deep sense of gratitude. Tai Zhou’s cabin has become more than just a shelter from the storm. It has become a place of connection, reflection, and unexpected beauty."
 
-    "We continue walking, hand in hand, in awe of the picturesque scenery. The snow-covered trees seem to whisper secrets of serenity, and the gentle crunch of our footsteps harmonizes with the peacefulness of the winter landscape. In this moment, surrounded by nature’s grandeur, I realize that this unexpected journey has left an indelible mark on my heart."
+    "We continue walking, hand in hand, in awe of the picturesque scenery. The snow-covered trees seem to whisper secrets of serenity, and the gentle crunch of our footsteps harmonizes with the peacefulness of the winter landscape."
+    
+    "In this moment, surrounded by nature’s grandeur, I realize that this unexpected journey has left an indelible mark on my heart."
 
     if success_emotional:
         # Tai Zhou doesn’t follow Konrad to the airport
-        call ending_leaving_follow
+        call ending_leaving_follow from _call_ending_leaving_follow
     else:
         # Tai Zhou follows Konrad to the airport
-        call ending_leaving_nofollow
+        call ending_leaving_nofollow from _call_ending_leaving_nofollow
 
     jump ending_reflection
 
@@ -121,19 +125,19 @@ label ending_leaving:
 label ending_reflection:
     if success_physical and success_intellectual and success_emotional:
         # if physical+intellectual+emotional, promise to take the time to recover, and then come back to Tai Zhou when he’s ready for a relationship
-        call ending_reflection_best
+        call ending_reflection_best from _call_ending_reflection_best
     elif success_physical and success_emotional:
         # if physical+emotional, they chat after Konrad returns to his life, and Konrad looks forward to visiting again, imagining their bodies against each other
-        call ending_reflection_physical_emotional
+        call ending_reflection_physical_emotional from _call_ending_reflection_physical_emotional
     elif  success_intellectual and success_emotional:
         # if intellectual+emotional or emotional, they become good friends
-        call ending_reflection_emotional
+        call ending_reflection_emotional from _call_ending_reflection_emotional
     elif success_physical and success_intellectual:
         # if physical+intellectual or physical or intellectual, they chat for a while, but it trails off, and life goes on  
-        call ending_reflection_physical_intellectual
+        call ending_reflection_physical_intellectual from _call_ending_reflection_physical_intellectual
     else:
         # if none, Konrad moves on and eventually forgets about Tai Zhou
-        call ending_reflection_bad
+        call ending_reflection_bad from _call_ending_reflection_bad
 
     return
 
@@ -384,9 +388,7 @@ label ending_bedroom_physical:
 
     t concerned "You alright?"
 
-    show k neutral
-
-    "I nod."
+    k neutral "I nod."
 
     "Tai Zhou reaches over and grabs my manhood, giving it a soft squeeze."
 

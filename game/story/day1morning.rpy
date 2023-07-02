@@ -9,6 +9,8 @@
 label cabinMorning:
 
     scene bg cabin_inside_day
+
+    play music bells noloop fadein 0.5
     
     "I slowly opened my eyes, the remnants of sleep clinging to my senses. The warmth of the cabin enveloped me, providing a stark contrast to the frigid air outside."
 
